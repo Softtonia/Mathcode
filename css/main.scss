@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    max-width: 1186px !important;
+}
+.container-inner{
+    max-width: 1050px;
+    margin: auto;
+
+}
+
+.btn-all{
+    background: #FF7731;
+    box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+    border-radius: 59px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: none;
+}
+
+.btn-tp-bb{
+    color: #FF7731;
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    span{
+        border-bottom: 2px solid #FF7731;
+    }
+
+}
+.card-body{
+    border-radius: 10px;
+
+    
+}
+
+.title-tag{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+
+.tx-orange{
+    color: #FF7731;
+}
+.bg-orange{
+    background-color: #FF7731;
+}
+
+.tx-green{
+    color: #1DC295;
+}
+.bg-green{
+    background-color: #DDF6EF;
+}
+
+.tx-blue{
+    color: #6857FF;
+}
+.bg-blue{
+    background-color: #E8E6FF !important;
+}
+
+.tx-red{
+    color:  #C32437;
+}
+.bg-red{
+    background-color: #FDE4E7 !important;
+}
+
+.tx-lt-oranger{
+    color: #FF7731;
+}
+.bg-lt-oranger{
+    background-color: #FFC271 !important;
+}
+
+/* margin */
+.sp-100{
+    margin: 100px auto;
+}
+.sp-65{
+    margin: 65px auto;
+    
+}
+@media (max-width:678px) {
+    .sp-100{
+        margin: 50px auto;
+    }
+    .sp-65{
+        margin: 45px auto;
+        
+    }
+}
+
+
+/* box-shadow */
+.noshadow{
+box-shadow: none !important;
+}
+.cr-sd-1{
+    box-shadow: 0px 4px 4px #DD717C;
+}
+
+.cr-sd-2{
+    box-shadow: 0px 4px 4px #CE6732;
+}
+
+.cr-sd-3{
+    box-shadow: 0px 4px 4px #44DEB4;
+}
+
+.tm-sd{
+    background: radial-gradient(48.66% 48.66% at 49.97% 50%, #F1E9E9 47%, #5FCDAF 55.23%, #FFFFFF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+background-blend-mode: multiply;
+mix-blend-mode: multiply;
+opacity: 0.5;
+// transform: rotate(-76.72deg);
+}
+
+/* radius */
+.r-5{
+    border-radius: 5px;
+}
+.r-10{
+    border-radius: 10px;
+}
+
+/* font */
+
+.font-lg{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+}
+.font-18{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.font-para{
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+}
+
+.font-sm{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;  
+}
+
+.font-lt{
+font-weight: 400;
+font-size: 14px !important;
+line-height: 17px;
+}
+
+.font-10{
+    font-size: 10px;
+}
+
+
+
+/* a href */
+a{
+    text-decoration: none;
+
+}
+
+
+/* border */
+
+.bd-1{
+    opacity: 0.2;
+border-bottom: 1px solid #FFFFFF;
+}
+.bd-l{
+    border-left: none !important;
+}
+
+.bd-r{
+    border-right: none !important;
+}
+
+
+
+/* padding */
+
+@media (max-width:768px) {
+    .pd-sm{
+        padding: 20px !important;
+    }
+}
