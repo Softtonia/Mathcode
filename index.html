@@ -6,10 +6,10 @@
     <title>Bootstrap demo</title>
 
     <!----bootsrap---->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
 
-    <!-- <link
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
@@ -19,7 +19,7 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
-    ></script> -->
+    ></script>
     <!----fontawsome---->
     <script
       src="https://kit.fontawesome.com/46102b2060.js"
@@ -53,9 +53,72 @@
 
     <div class="container-fluid">
       
-          <div class="container navbar-main d-flex align-items-center">
+          <div class="container p-0 navbar-main d-flex align-items-center">
             <div class="row w-100">
-                <div class="col-lg-6 col-10 d-flex nav-L align-items-center">
+
+              <div class="col-12 d-flex align-items-center">
+                <div class="logoBox">
+                  <img src="asset/logo.svg" alt="img">
+                </div>
+                <div class=" search-box">
+                  <input type="text" placeholder="Search">
+                  <i class="fas fa-search text-black"></i>
+
+
+                  <!-- <div class="form-outline">
+                    <input type="search" id="form1" class="form-control bd-r" />
+                  </div>
+                  <button type="button" class="btn btn-primary bd-l">
+                    <i class="fas fa-search text-black"></i>
+                  </button> -->
+                </div>
+
+                <div class="d-lg-block d-none">
+                  <ul class="list-unstyled d-flex align-items-center">
+                    <li class=""><a href="index.html" class="text-dark">Home</a></li>
+
+
+                    <li class="dropdown"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
+                    
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="dropdown"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Skills</a>
+                    
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+
+
+                    <li class="dropdown"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Careers</a>
+                    
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+
+                    
+                    <li class=""><button class="btn-all font-sm text-dark">Contact Us</button></li>
+                    <li class=""><i class="fa-solid fa-user"></i></li>
+                  </ul>
+                </div>
+                <div class="d-lg-none d-block">
+                  <span style="font-size:30px;cursor:pointer  m-auto" onclick="openNav()">&#9776;</span>
+                </div>
+
+
+              </div>
+
+                <!-- <div class="col-lg-6 col-10 d-flex nav-L align-items-center">
                   <div class="logoBox">
                     <img src="asset/logo.png" alt="img">
                   </div>
@@ -83,7 +146,7 @@
                   <div class="d-lg-none d-block">
                     <span style="font-size:30px;cursor:pointer  m-auto" onclick="openNav()">&#9776;</span>
                   </div>
-                </div>
+                </div> -->
 
                 
             </div>
@@ -141,34 +204,37 @@
 
 
     <div class="container-fluid banner-container pd-sm">
-        <div class="row d-flex justify-content-md-end justify-content-center align-items-center">
-            <div class="col-xl-4 col-md-6 col-12 p-md-5 p-2  ">
-                <ul class=" list-unstyled text-white my-5">
-                    <li class="my-3"><strong class="font-18">An Online Ease To Help!</strong></li>
-                    <p class="my-3">Children’s opportunities to use mathematics and logical thinking to solve problems help children develop dispositions such as curiosity, imagination, flexibility, inventiveness, and persistence.</p>
-                    <li class="my-3 d-md-block d-none">Showing innovative proficiency decisive reasoning and critical Thinking through science instruction gives students the abilities and information they need to prevail in school and then some.</li>
-                    <li><button class="btn-all">Book Free Trial <i class="mx-2 fa-solid fa-circle-play"></i></button></li>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <ul class="list-unstyled text-white">
+                    <li class="my-md-2 my-auto"><strong class="font-18">An Online Ease To Help!</strong></li>
+                    <p class="my-md-2 my-auto font-14">Children’s opportunities to use mathematics and logical thinking to solve problems help children develop dispositions such as curiosity, imagination, flexibility, inventiveness, and persistence.</p>
+                    <li class="my-md-2 my-auto d-md-block d-none font-lt">Showing innovative proficiency decisive reasoning and critical Thinking through science instruction gives students the abilities and information they need to prevail in school and then some.</li>
+                    <li class="mt-3"><button class="btn-all">Book Free Trial <i class="mx-2 fa-solid fa-circle-play"></i></button></li>
                 </ul>
             </div>
+        </div>
         </div>
     </div>
 
 
-                <div class="container-fluid pd-sm p-0 d-flex justify-content-center align-content-center points-container">
-                    <div class="row inner-container d-flex flex-column-reverse flex-lg-row">
+                <div class="container-fluid  sp-50 pd-sm p-0 d-flex justify-content-center align-content-center points-container">
+                    <div class="container">
+                      <div class="row  d-flex flex-column-reverse flex-lg-row">
                         <div class="col-md-8 col-12">
                             <ul class="p-0">
-                                <li class="my-2">Advance your learning with experienced and qualified teachers from leading institutes. </li>
+                                <li class="my-2 font-para">Advance your learning with experienced and qualified teachers from leading institutes. </li>
             
-                                <li class="my-2">Excel in your academics just in few weeks. </li>
+                                <li class="my-2 font-para">Excel in your academics just in few weeks. </li>
                                     
-                                <li class="my-2"> Mentoring and support given during exams.</li>
+                                <li class="my-2 font-para"> Mentoring and support given during exams.</li>
                                     
-                                <li class="my-2"> Get a chance to be a Mathcode STARKID to win certificates & awards. </li>
+                                <li class="my-2 font-para"> Get a chance to be a Mathcode STARKID to win certificates & awards. </li>
                                     
-                                <li class="my-2">Advance your IQ in a few weeks. </li>
+                                <li class="my-2 font-para">Advance your IQ in a few weeks. </li>
                                     
-                                <li class="my-2">One to One personalized session</li>
+                                <li class="my-2 font-para">One to One personalized session</li>
                             </ul>
                         </div>
             
@@ -177,41 +243,48 @@
                           
                         </div>
                     </div>
-                </div>
-
-                <div class="container-fluid pd-sm  my-4 p-0 d-flex justify-content-center align-content-center about-us-container">
-                    <div class="row inner-container">
-                        <div class="col-md-8 col-12">
-                            <ul class="list-unstyled">
-                                <li class="my-4">About Us</li>
-                                <li class="my-4">MathCode is a platform for exclusive 
-                                    classes on Math & Science from 
-                                    students across the globe (Grade 1 to 10)</li>
-                                <li class="my-4">An interactive platform with the 1:1 Live Class, which will be very helpful for 
-                                    student’s learning. We provide experienced and qualified teachers from 
-                                    premier institutes to ensure best LIVE lessons online join along and tune in!</li>
-                                    <li class="my-4"><button class="btn-all">Book Free Trial</button></li>
-                            </ul>
-                        </div>
-            
-                        <div class="col-md-4 col-12 d-flex align-items-center justify-content-center">
-                            <img src="asset/img2.svg" alt="img" height="100%" width="100%">
-                        </div>
                     </div>
                 </div>
+                <hr class="hr-all">
+
+                <div class="container-fluid  sp-50 pd-sm  my-4 p-0 d-flex justify-content-center align-content-center about-us-container">
+                   <div class="container">
+                    <div class="row">
+                      <div class="col-md-8 col-12  my-auto">
+                          <ul class="list-unstyled">
+                              <li class="my-4 font-para">About Us</li>
+                              <li class="my-4 font-para">MathCode is a platform for exclusive 
+                                  classes on Math & Science from 
+                                  students across the globe (Grade 1 to 10)</li>
+                              <li class="my-4 font-para">An interactive platform with the 1:1 Live Class, which will be very helpful for 
+                                  student’s learning. We provide experienced and qualified teachers from 
+                                  premier institutes to ensure best LIVE lessons online join along and tune in!</li>
+                                  <li class="my-4 font-para"><button class="btn-all">Book Free Trial</button></li>
+                          </ul>
+                      </div>
+          
+                      <div class="col-md-4 col-12 d-flex align-items-center justify-content-center  my-auto7">
+                          <img src="asset/img2.svg" alt="img" height="100%" width="100%">
+                      </div>
+                  </div>
+                   </div>
+                </div>
+
+                <hr class="hr-all">
 
 
-                <div class="container-fluid faq-container ">
+
+                <div class="container-fluid faq-container sp-50">
                     <div class="row">
                         <div class="col-lg-6 col-12  pd-sm col-L d-flex align-items-center">
                             <div class="card-body  noshadow d-flex align-items-center">
-                                <div class="imgBox ">
-                                    <img src="asset" alt="img">
+                                <div class="imgBox my-md-auto my-2">
+                                    <img src="asset/Group 2000.svg" alt="img">
                                 </div>
                                 <div class="paraBox mx-3">
                                     <ul class="list-unstyled">
-                                        <li class="my-2"><strong>FAQ</strong></li>
-                                        <li class="my-2"><strong> Start your Learning  Journey Today!</strong></li>
+                                        <li class="my-2 para-tag"><strong>FAQ</strong></li>
+                                        <li class="my-2 para-tag"><strong> Start your Learning  Journey Today!</strong></li>
                                             <li class="my-2"><button class="btn-all">Join Us Now <i class="mx-2 fa-solid fa-circle-play"></i></button></li>
                                     </ul>
                                 </div>
@@ -279,7 +352,7 @@
                 
 
 
-                <div class="container course-container pd-sm sp-100">
+                <div class="container course-container pd-sm sp-100 ">
                     <div class="row">
                         <div class="col-12 ">
                             <h5 class="tx-orange">MATHCODE  COURSED</h5>
@@ -290,9 +363,9 @@
                     </div>
 
 
-                        <div class="slider3 my-5 overflow-hidden">
+                        <div class="slider1 my-5 overflow-hidden">
                             <div class="p-2 col-md-4 col-12">
-                                <div class="card-body bg-white cr-sd-1">
+                                <div class="card-body  p-0 bg-white cr-sd-1">
                                     <div class="imgBox">
                                         <img src="images/Rectangle 25.png" class="r-5" alt="img" height="300px" width="100%">
                                     </div>
@@ -305,17 +378,17 @@
                                         </div>
 
                                         <div class="para-box-2 d-flex justify-content-between align-items-center">
-                                            <div class="rate-box">
+                                            <div class="rate-box font-10">
                                                 <i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i>
                                             </div>
-                                            <button class="btn-tp-bb"><span>Know Details</span> </button>
+                                            <button class="btn-tp-bb"><span>Know Details</span> <i class="fas fa-arrow-right"></i> </button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="p-2 col-md-4  col-12">
-                              <div class="card-body bg-white cr-sd-1">
+                              <div class="card-body  p-0 bg-white cr-sd-1">
                                   <div class="imgBox">
                                       <img src="images/Rectangle 26.png" class="r-5" alt="img" height="300px" width="100%">
                                   </div>
@@ -328,17 +401,17 @@
                                       </div>
 
                                       <div class="para-box-2 d-flex justify-content-between align-items-center">
-                                          <div class="rate-box">
+                                          <div class="rate-box font-10">
                                               <i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i>
                                           </div>
-                                          <button class="btn-tp-bb"><span>Know Details</span> </button>
+                                          <button class="btn-tp-bb"><span>Know Details</span> <i class="fas fa-arrow-right"></i> </button>
                                       </div>
                                   </div>
                               </div>
                           </div>
 
                           <div class="p-2 col-md-4 col-12">
-                            <div class="card-body bg-white cr-sd-1">
+                            <div class="card-body  p-0 bg-white cr-sd-1">
                                 <div class="imgBox">
                                     <img src="images/Rectangle 27.png" class="r-5" alt="img" height="300px" width="100%">
                                 </div>
@@ -351,17 +424,17 @@
                                     </div>
 
                                     <div class="para-box-2 d-flex justify-content-between align-items-center">
-                                        <div class="rate-box">
+                                        <div class="rate-box font-10">
                                             <i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i>
                                         </div>
-                                        <button class="btn-tp-bb"><span>Know Details</span> </button>
+                                        <button class="btn-tp-bb"><span>Know Details</span> <i class="fas fa-arrow-right"></i> </button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         
                         <div class="p-2 col-md-4 col-12">
-                          <div class="card-body bg-white cr-sd-1">
+                          <div class="card-body  p-0 bg-white cr-sd-1">
                               <div class="imgBox">
                                   <img src="images/Rectangle 27.png" class="r-5" alt="img" height="300px" width="100%">
                               </div>
@@ -374,10 +447,10 @@
                                   </div>
 
                                   <div class="para-box-2 d-flex justify-content-between align-items-center">
-                                      <div class="rate-box">
+                                      <div class="rate-box font-10">
                                           <i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i>
                                       </div>
-                                      <button class="btn-tp-bb"><span>Know Details</span> </button>
+                                      <button class="btn-tp-bb"><span>Know Details</span> <i class="fas fa-arrow-right"></i> </button>
                                   </div>
                               </div>
                           </div>
@@ -390,8 +463,8 @@
  
       
 
-
-                <div class="container-fluid pd-sm sp-100">
+<!---testimonial--->
+                <div class="container-fluid pd-sm sp-100 testimonial-container">
                   <div class="row container-inner">
 
                     <div class="col-12 text-center mb-5">
@@ -401,9 +474,9 @@
                   </div>
 
 
-                  <div class="slider3  overflow-hidden">
-                    <div class="p-2 col-md-4 col-12">
-                      <div class=" card-body bg-white cr-sd-1 p-4">
+                  <div class="slider3  overflow-hidden" >
+                    <div class="p-2 col-md-4 col-12" >
+                      <div class=" card-body bg-white cr-sd-1 p-md-4 p-2">
                           <ul class="list-unstyled">
                             <li class=" my-2">
                               <div class="rate-box font-10">
@@ -424,9 +497,9 @@
                                 <div class="imgBox d-flex align-items-center justify-content-center">
                                   <img src="asset/girl.png" alt="img" height="70px" width="70px" class="rounded-circle">
                                 </div>
-                                <div class="paraBox d-flex flex-column mx-3">
+                                <div class="paraBox d-flex flex-column mx-sm-3 mx-0">
                                   <span class="title-tag">Jessica Hische </span>
-                                    <span>India</span>
+                                    <span class="para-tag-2">India</span>
                                 </div>
                               </div>
                             </li>
@@ -435,7 +508,7 @@
                   </div>
 
                   <div class="p-2 col-md-4 col-12">
-                    <div class="card-body bg-white cr-sd-2 p-4">
+                    <div class="card-body bg-white cr-sd-2 p-md-4 p-2">
                         <ul class="list-unstyled">
                           <li class=" my-2">
                             <div class="rate-box font-10">
@@ -456,9 +529,9 @@
                               <div class="imgBox d-flex align-items-center justify-content-center">
                                 <img src="asset/girl.png" alt="img" height="70px" width="70px" class="rounded-circle">
                               </div>
-                              <div class="paraBox d-flex flex-column mx-3">
+                              <div class="paraBox d-flex flex-column mx-sm-3 mx-0">
                                 <span class="title-tag">Jessica Hische </span>
-                                  <span>India</span>
+                                  <span class="para-tag-2">India</span>
                               </div>
                             </div>
                           </li>
@@ -468,7 +541,7 @@
 
 
                 <div class="p-2 col-md-4 col-12">
-                  <div class="card-body bg-white cr-sd-3 p-4">
+                  <div class="card-body bg-white cr-sd-3 p-md-4 p-2">
                       <ul class="list-unstyled">
                         <li class=" my-2">
                           <div class="rate-box font-10">
@@ -489,9 +562,9 @@
                             <div class="imgBox d-flex align-items-center justify-content-center">
                               <img src="asset/girl.png" alt="img" height="70px" width="70px" class="rounded-circle">
                             </div>
-                            <div class="paraBox d-flex flex-column mx-3">
+                            <div class="paraBox d-flex flex-column mx-sm-3 mx-0">
                               <span class="title-tag">Jessica Hische </span>
-                                <span>India</span>
+                                <span class="para-tag-2">India</span>
                             </div>
                           </div>
                         </li>
@@ -500,7 +573,7 @@
               </div>
 
               <div class="p-2 col-md-4 col-12">
-                <div class="card-body bg-white cr-sd-3 p-4">
+                <div class="card-body bg-white cr-sd-3 p-md-4 p-2">
                     <ul class="list-unstyled">
                       <li class=" my-2">
                         <div class="rate-box font-10">
@@ -521,9 +594,9 @@
                           <div class="imgBox d-flex align-items-center justify-content-center">
                             <img src="asset/girl.png" alt="img" height="70px" width="70px" class="rounded-circle">
                           </div>
-                          <div class="paraBox d-flex flex-column mx-3">
+                          <div class="paraBox d-flex flex-column mx-sm-3 mx-0">
                             <span class="title-tag">Jessica Hische </span>
-                              <span>India</span>
+                              <span class="para-tag-2">India</span>
                           </div>
                         </div>
                       </li>
@@ -542,10 +615,11 @@
                   <div class="container-fluid pd-sm footer-container pt-5">
                     <div class="container">
                       <div class="row">
-                        <div class="col-12 bd-1 mb-4">
+                        <div class="col-12 mb-4">
                           <div class="logoBox">
-                            <img src="asset/logo.png" alt="img">
+                            <img src="asset/logo.svg" alt="img">
                           </div>
+                          <hr class="text-white">
                         </div>
                   </div>
 
@@ -554,12 +628,12 @@
                         <div class="col-md-3">
                           <ul class="list-unstyled">
                             <p class="title-tag">MathCode</p>
-                            <li class="my-2"> <a href="#" class="text-black font-lt">Do you want to advance your </a></li>
-                              <li class="my-2"> <a href="#" class="text-black font-lt">learnings with us at Mathcode?</a></li>
-                              <li class="my-2"> <a href="#" class="text-black font-lt">Join in and book your slots by filing </a></li>
-                              <li class="my-2"> <a href="#" class="text-black font-lt">out the details for a free trial </a></li>
-                              <li class="my-2"> <a href="#" class="text-black font-lt">session from early years to</a></li>
-                              <li class="my-2"> <a href="#" class="text-black font-lt">proffiecient!</a></li>
+                            <li class="my-2 text-start"> <a href="#" class="text-black font-lt">Do you want to advance your </a></li>
+                              <li class="my-2 text-start"> <a href="#" class="text-black font-lt">learnings with us at Mathcode?</a></li>
+                              <li class="my-2 text-start"> <a href="#" class="text-black font-lt">Join in and book your slots by filing </a></li>
+                              <li class="my-2 text-start"> <a href="#" class="text-black font-lt">out the details for a free trial </a></li>
+                              <li class="my-2 text-start"> <a href="#" class="text-black font-lt">session from early years to</a></li>
+                              <li class="my-2 text-start"> <a href="#" class="text-black font-lt">proffiecient!</a></li>
                           </ul>
                         </div>
 
@@ -567,20 +641,20 @@
                         <div class="col-md-2">
                           <ul class="list-unstyled">
                             <p class="title-tag">Company</p>
-                            <li class="my-2"> <a href="#" class="text-black font-lt">About Us</a></li>
-                              <li class="my-2"> <a href="#" class="text-black font-lt">Career</a></li>
-                                <li class="my-2"> <a href="#" class="text-black font-lt">Advertise</a></li>
-                                  <li class="my-2"> <a href="#" class="text-black font-lt">Terms of Service</a></li>
-                                    <li class="my-2"> <a href="#" class="text-black font-lt">Help & Support</a></li>
+                            <li class="my-2 text-start"> <a href="#" class="text-black font-lt">About Us</a></li>
+                              <li class="my-2 text-start"> <a href="#" class="text-black font-lt">Career</a></li>
+                                <li class="my-2 text-start"> <a href="#" class="text-black font-lt">Advertise</a></li>
+                                  <li class="my-2 text-start"> <a href="#" class="text-black font-lt">Terms of Service</a></li>
+                                    <li class="my-2 text-start"> <a href="#" class="text-black font-lt">Help & Support</a></li>
                           </ul>
                         </div>
 
                         <div class="col-md-3">
                           <ul class="list-unstyled">
                             <p class="title-tag">Company</p>
-                            <li class="my-2"> <a href="tel:8789134522" class="text-black font-lt">+91 8789134522 </a></li>
-                              <li class="my-2"> <a href="mailto: info@mathcode.co.in" class="text-black font-lt">info@mathcode.co.in</a></li>
-                              <li class="my-2"> <a href="mailto: contact@mathcode.co.in" class="text-black font-lt">contact@mathcode.co.in</a></li>
+                            <li class="my-2 text-start"> <a href="tel:8789134522" class="text-black font-lt">+91 8789134522 </a></li>
+                              <li class="my-2 text-start"> <a href="mailto: info@mathcode.co.in" class="text-black font-lt">info@mathcode.co.in</a></li>
+                              <li class="my-2 text-start"> <a href="mailto: contact@mathcode.co.in" class="text-black font-lt">contact@mathcode.co.in</a></li>
                           </ul>
                         </div>
 
@@ -588,7 +662,7 @@
                             <ul class="list-unstyled p-md-auto p-0">
                             <p class="title-tag">Newsletter</p>
                               <li> <input type="email" class="form-control rounded-0 my-2" placeholder="Your email"> </li>
-                              <li><input type="submit" value="Subscribe" class="rounded-0 my-2  w-100 btn-all"></li>
+                              <li><input type="submit" value="Subscribe" class="rounded-0 my-2 "></li>
                               <li> <span class="font-lt">software like Aldus PageMaker including versions
                                 of Lorem Ipsum.</span> </li>
                             </ul>
@@ -604,6 +678,7 @@
  
 
     <!----script---->
+    <script src="js/courser.js"></script>
                 
     <script src="js/testimonial.js"></script>
 
