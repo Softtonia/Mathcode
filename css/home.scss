@@ -152,7 +152,7 @@
 
 @media (max-width:768px) {
     .points-container{
-        background-image: url('#');
+        background-image: url('../asset/Group\ 2097.png');
         background-size: 100% 110%;
         padding: 20px !important;
 
@@ -203,8 +203,8 @@
 
 
 .about-us-container{
-    background-image: url('../asset/Group\ 1975.png') !important;
-    background-size: 100% 110%;
+    background-image: url('../asset/Group\ 2105.png') !important;
+    background-size: 100% 100%;
 
     .inner-container{
         height: 390px;
@@ -226,7 +226,7 @@
 
 @media (max-width:400px) {
     .about-us-container{
-        background-image: url('#') !important;
+        background-image: url('../asset/') !important;
         background-size: cover;
 
     
@@ -256,6 +256,7 @@
             align-items: center;
             ul{
                 width: 147px;
+                text-align: center;
                 li{
                     margin: 13px auto !important;
                 }
@@ -272,8 +273,46 @@
 
 .course-container{
     .card-body{
-        height: 430px;
+    height: 430px;
     }
+
+    .slick-prev.slick-arrow {
+        background-color: #FF7731;
+        position: absolute;
+        left: 0px;
+        top: 40%;
+        z-index: 5;
+        }
+        .slick-next.slick-arrow {
+        background-color: #FF7731;
+        top: 40%;
+        z-index: 5;
+        position: absolute;
+        right: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        }
+        
+        .slick-next:before,
+        .slick-prev:before {
+        color: #FF7731 !important;
+        font-size: 40px;
+        border-radius: 50%;
+        }
+
+        .slick-next,
+        .slick-prev {
+        
+
+        background-color: transparent !important;
+        color: #FF7731 !important;
+        }
+
+        
 }
 
 
@@ -954,7 +993,7 @@
 
 @media (max-width:768px) {
     .navbar-main{
-        height: 116px;
+        height: 80px;
         .nav-L{
             .logoBox{
                 width: auto;
@@ -1094,63 +1133,7 @@
 }
 
 
-/* footer */
 
-.footer-container{
-    .container{
-        .row{
-            .logoBox{
-                img{
-                    z-index: 100;
-                }
-            }
-
-            .col-md-3,.col-md-2,.col-md-4{
-                input{
-                    height: 44px;
-                    width: 100%;
-                    border: 0;
-                }
-                input[type='submit']{
-                    background-color: #FF7731;
-                    color: white;
-                }
-            }
-
-
-        }
-    }
-}
-
-@media (max-width:768px) {
-    .footer-container{
-        .container{
-            .row{
-                .logoBox{
-                    img{
-                        z-index: 100;
-                        height: 40px;
-                        height: 114px;
-                    }
-                }
-    
-                .col-md-3,.col-md-2,.col-md-4{
-                    input{
-                        height: 44px;
-                        width: 100%;
-                        border: 0;
-                    }
-                    input[type='submit']{
-                        background-color: #FF7731;
-                        color: white;
-                    }
-                }
-    
-    
-            }
-        }
-    }  
-}
 
 
 

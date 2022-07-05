@@ -4,7 +4,7 @@
  
 
     .row{
-        height: 800px;
+        height: 700px;
         display: flex;
         justify-content: start;
         align-items: flex-end;
@@ -145,12 +145,76 @@
 }
 
 .about-mathcode-container{
-    
+    .container{
+        .row{
+            .imgBox{
+                img{
+                 height : 350px;
+                }
+            }
+        }
+    }
 }
 
 
 
+@media (max-width:400px) {
+    .math-container{
+        box-shadow: 0px 4px 4px #75D1EA;
+        padding-bottom: 40px;
+        .container{
+            .row{
+                .imgBox{
+                    img{
+                     height : 150px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .science-container{
+        box-shadow: 0px 4px 4px #FD7BA9;
+        padding-bottom: 40px;
+        .container{
+            .row{
+                .imgBox{
+                    img{
+                     height : 150px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .skill-container{
+        box-shadow: 0px 4px 4px #C86497;
+        padding-bottom: 40px;
+        .container{
+            .row{
+                .imgBox{
+                    img{
+                     height : 150px;
+                    }
+                }
+            }
+        }
+    
+    }
 
+    .about-mathcode-container{
+        .container{
+            .row{
+                .imgBox{
+                    img{
+                        height : 150px;
+
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 
@@ -197,21 +261,37 @@
                 width: 51px;
                 border: 0;
                 border-radius: 50%;
+                display: none;
                 i{
                     color: #FF7731;
                 }
             }
 
-            img:hover,video:hover{
-               button{
-                display: block;
+        }
+
+        .videoBox:hover{
+            button{
+                display: block !important;
                }
-            }
         }
     }
 }
 
 @media (max-width:768px) {
+
+    
+.faq-container{
+    .container{
+        .row{
+            .imgBox{
+                img{
+                 height : 400px;
+                }
+            }
+        }
+    }
+}
+
     .our-story-faq-container{
         .row{
             .videoBox{
@@ -246,3 +326,53 @@
         }
     }
 }
+
+@media (max-width:400px) {
+
+    
+    .faq-container{
+        .container{
+            .row{
+                .imgBox{
+                    img{
+                     height : 200px;
+                    }
+                }
+            }
+        }
+    }
+    
+        .our-story-faq-container{
+            .row{
+                .videoBox{
+                    position: relative;
+                    img,video{
+                        width: 100%;
+                        height: 200px;
+                        border-radius: 10px;
+                    }
+        
+                    button{
+                        position: absolute;
+                        top: 45%;
+                        left: 45%;
+                        background: #FFFFFF;
+                        box-shadow: 0px 4px 4px #9C9C9C;
+                        height: 51px;
+                        width: 51px;
+                        border: 0;
+                        border-radius: 50%;
+                        i{
+                            color: #FF7731;
+                        }
+                    }
+        
+                    img:hover,video:hover{
+                       button{
+                        display: block;
+                       }
+                    }
+                }
+            }
+        }
+    }

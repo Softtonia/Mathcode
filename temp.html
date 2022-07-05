@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <style>
-/* The container */
-.container {
+/* The radio-wrapper */
+.radio-wrapper {
   display: block;
   position: relative;
   padding-left: 35px;
@@ -17,7 +17,7 @@
 }
 
 /* Hide the browser's default radio button */
-.container input {
+.radio-wrapper input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
@@ -28,21 +28,24 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 25px;
-  width: 25px;
+  height: 18px;
+  width: 18px;
   background-color: white;
   border: 1px solid #FF7731;
   border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(216, 185, 185, 0.25);
 }
 
 /* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
+.radio-wrapper:hover input ~ .checkmark {
   background-color: #FF7731;
+
 }
 
 /* When the radio button is checked, add a blue background */
-.container input:checked ~ .checkmark {
-  background-color: #FF7731;
+.radio-wrapper input:checked ~ .checkmark {
+  background-color: white;
+  border: 0;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -53,36 +56,36 @@
 }
 
 /* Show the indicator (dot/circle) when checked */
-.container input:checked ~ .checkmark:after {
+.radio-wrapper input:checked ~ .checkmark:after {
   display: block;
 }
 
 /* Style the indicator (dot/circle) */
-.container .checkmark:after {
- 	top: 9px;
-	left: 9px;
+.radio-wrapper .checkmark:after {
+ 	top: 5px;
+	left: 5px;
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	background: white;
+	background: #FF7731;
 }
 </style>
 <body>
 
 <h1>Custom Radio Buttons</h1>
-<label class="container">One
+<label class="radio-wrapper">One
   <input type="radio" checked="checked" name="radio">
   <span class="checkmark"></span>
 </label>
-<label class="container">Two
+<label class="radio-wrapper">Two
   <input type="radio" name="radio">
   <span class="checkmark"></span>
 </label>
-<label class="container">Three
+<label class="radio-wrapper">Three
   <input type="radio" name="radio">
   <span class="checkmark"></span>
 </label>
-<label class="container">Four
+<label class="radio-wrapper">Four
   <input type="radio" name="radio">
   <span class="checkmark"></span>
 </label>

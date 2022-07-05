@@ -4,7 +4,7 @@
 }
 
 .breadcrumb-container .row {
-  height: 800px;
+  height: 700px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -157,6 +157,40 @@
   height: 350px;
 }
 
+.about-mathcode-container .container .row .imgBox img {
+  height: 350px;
+}
+
+@media (max-width: 400px) {
+  .math-container {
+    -webkit-box-shadow: 0px 4px 4px #75D1EA;
+            box-shadow: 0px 4px 4px #75D1EA;
+    padding-bottom: 40px;
+  }
+  .math-container .container .row .imgBox img {
+    height: 150px;
+  }
+  .science-container {
+    -webkit-box-shadow: 0px 4px 4px #FD7BA9;
+            box-shadow: 0px 4px 4px #FD7BA9;
+    padding-bottom: 40px;
+  }
+  .science-container .container .row .imgBox img {
+    height: 150px;
+  }
+  .skill-container {
+    -webkit-box-shadow: 0px 4px 4px #C86497;
+            box-shadow: 0px 4px 4px #C86497;
+    padding-bottom: 40px;
+  }
+  .skill-container .container .row .imgBox img {
+    height: 150px;
+  }
+  .about-mathcode-container .container .row .imgBox img {
+    height: 150px;
+  }
+}
+
 /* faq section */
 .faq-container .container .row .imgBox img {
   height: 685px;
@@ -183,23 +217,59 @@
   width: 51px;
   border: 0;
   border-radius: 50%;
+  display: none;
 }
 
 .our-story-faq-container .row .videoBox button i {
   color: #FF7731;
 }
 
-.our-story-faq-container .row .videoBox img:hover button, .our-story-faq-container .row .videoBox video:hover button {
-  display: block;
+.our-story-faq-container .row .videoBox:hover button {
+  display: block !important;
 }
 
 @media (max-width: 768px) {
+  .faq-container .container .row .imgBox img {
+    height: 400px;
+  }
   .our-story-faq-container .row .videoBox {
     position: relative;
   }
   .our-story-faq-container .row .videoBox img, .our-story-faq-container .row .videoBox video {
     width: 100%;
     height: 396px;
+    border-radius: 10px;
+  }
+  .our-story-faq-container .row .videoBox button {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 4px 4px #9C9C9C;
+            box-shadow: 0px 4px 4px #9C9C9C;
+    height: 51px;
+    width: 51px;
+    border: 0;
+    border-radius: 50%;
+  }
+  .our-story-faq-container .row .videoBox button i {
+    color: #FF7731;
+  }
+  .our-story-faq-container .row .videoBox img:hover button, .our-story-faq-container .row .videoBox video:hover button {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .faq-container .container .row .imgBox img {
+    height: 200px;
+  }
+  .our-story-faq-container .row .videoBox {
+    position: relative;
+  }
+  .our-story-faq-container .row .videoBox img, .our-story-faq-container .row .videoBox video {
+    width: 100%;
+    height: 200px;
     border-radius: 10px;
   }
   .our-story-faq-container .row .videoBox button {
