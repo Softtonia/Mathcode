@@ -7,7 +7,9 @@ $('.slider1').slick({
     autoplay:false,
     slidesToShow: 3,
     slidesToScroll: 1,
-    arrows:false,
+    arrows:true,
+    prevArrow:"<button type='button' class='slick-prev pull-left'>okok</button>",
+            nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
     
     responsive: [
       {

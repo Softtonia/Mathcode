@@ -38,6 +38,15 @@ $('.courseslider1').slick({
     arrows: false
 
         }
+      },
+      {
+        breakpoint: 400,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+    arrows: false
+
+        }
       }
     ]
   });

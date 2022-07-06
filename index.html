@@ -79,7 +79,7 @@
   </head>
   <body>
  
-
+<!------start navbar------->
     <div class="container-fluid">
       
           <div class="container p-0 navbar-main d-flex align-items-center">
@@ -107,23 +107,45 @@
                     <li class=""><a href="index.html" class="text-dark">Home</a></li>
 
 
-                    <li class="dropdown"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
+                    <li class="dropdown desktop-nav-dd"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
                     
-                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <!-- <div class="dropdown-menu desktop-nav-dd-container d-flex">
+                        <div class="col-6">
+                          <ul class="list-unstyled">
+                            <li> <a href=""> Maths</a> </li>
+                            <li> <a href=""> Science</a> </li>
+                            <li> <a href=""> Coding</a> </li>
+                            <li> <a href=""> English</a> </li>
+                          </ul>
+                        </div>
+                        <div class="col-6">
+                          <div class="imgBox">
+                            <img src="asset/Group 2112.png" alt="img">
+                          </div>
+                        </div>
+                      </div> -->
+                      <ul class="dropdown-menu desktop-nav-dd-container" aria-labelledby="dropdownMenuLink">
+                       <li class="d-flex">
+                        <div>
+                          <ul class="list-unstyled">
+                            <li> <a href="">Maths</a> </li>
+                            <li> <a href="">Science</a> </li>
+                            <li> <a href="">Coding</a> </li>
+                            <li> <a href="">English</a> </li>
+                          </ul>
+                        </div>
+                        <div class="imgBox p-2">
+                          <img src="asset/Group 2112.png" alt="img">
+
+                          <button class="btn-sm mt-3">Book Free Trial</button>
+                        </div>
+                       </li>
+                      
                       </ul>
                     </li>
 
-                    <li class="dropdown"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Skills</a>
+                    <li class=""><a href="#" class="text-dark">Skills</a></li>
                     
-                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
 
 
                     <li class="dropdown"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Careers</a>
@@ -136,15 +158,13 @@
                     </li>
 
                     
-                    <li class=""><button class="btn-all font-sm text-dark">Contact Us</button></li>
+                    <li class=""><button class="btn-all font-sm text-dark contact-btn">Contact Us</button></li>
                     <li class=""><i class="fa-solid fa-user"></i></li>
                   </ul>
                 </div>
                 <div class="d-lg-none d-block">
                   <span style="font-size:30px;cursor:pointer  m-auto" onclick="openNav()">&#9776;</span>
                 </div>
-
-
               </div>
 
                 <!-- <div class="col-lg-6 col-10 d-flex nav-L align-items-center">
@@ -184,12 +204,39 @@
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="#">Home</a>
-      <a href="#">Courses</a>
+      <a href="#">
+        
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item border-0">
+            <h2 class="accordion-header border-0" id="headingOne">
+              <button class="accordion-button border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Courses
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul class="list-unstyled" >
+                  <li>  Maths </li>
+                  <li>  Science </li>
+                  <li>  Coding </li>
+                  <li>  English </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+
+      </a>
+
+
+
       <a href="#">Skills</a>
       <a href="#">Careers</a>
     </div>
+<!------end navbar------->
 
-
+ 
 
     <div class="container-fluid banner-container pd-sm">
         <div class="container">
@@ -443,8 +490,10 @@
                               </div>
                           </div>
                       </div>
+
                         
                         </div>
+                 
 
                 </div>
 

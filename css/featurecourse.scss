@@ -62,6 +62,15 @@
                             }
                         }
 
+                        .paraBox{
+                            .about-course-box{
+                               a{
+                                
+                               
+                               }
+                            }
+                        }
+
                     }
                 }
             }
@@ -162,6 +171,8 @@
             }
             .feature-course-col{
                 .row{
+                    margin-top: 30px;
+
                     .col-12{
                         .card-body{
                             height: fit-content !important;
@@ -172,8 +183,8 @@
                                 height: 200px;
                                
                                 img{
-                                    height: 100%;
-                                    width: 100%;
+                                    height  : 100%;
+                                    width   : 100%;
                                     position: relative;
                                 }
     
@@ -205,7 +216,151 @@
     .subscribe-col{
         background: linear-gradient(180deg, #FF7731 0%, #BB6A40 100%);
         .row{
-        height: 250px;
+        height: 150px;
+    
+            .col-md-6{
+                text-align: center;
+    
+                .form-group{
+                    height: 51px;
+                    background: #FFFFFF;
+                    box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+                    border-radius: 5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 10px;
+                    z-index: 2;
+    
+                    input{
+                        background-color: transparent;
+                        border: none;
+                        outline: none;
+                    }
+                    button{
+                        width: 100px;
+                        height: 30px;
+                        background: #FF7731;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #FFFFFF;
+                        border: none;
+                        border-radius: 5px;
+                        outline: none;
+    
+                        
+                    }
+                }
+            }
+    
+            .sub-form-col{
+                position: relative;
+                // background: radial-gradient(50% 50% at 50% 50%, #EBB0B0 0%, rgba(217, 217, 217, 0) 100%);
+                // background-image: 100%;
+    
+                .bg-asset{
+                    position: absolute;
+                    left: 30%;
+                    z-index: 1;
+                    img{
+                        height: 150px;
+                    width: 150px;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:400px) {
+    .feature-course-container{
+        .row{
+    
+            .radio-filer-col{
+                .accordion{
+                    .accordion-item{
+                        border-radius: 0 !important;
+    
+                        .accordion-header{
+                            background-color: rebeccapurple;
+                            border-radius: 0 !important;
+                            outline: none !important;
+                            box-shadow: none !important;
+    
+                            button{
+                                background-color: #FF7731;
+                                border-radius: 0 !important;
+                                outline: none !important;
+                            box-shadow: none !important;
+                            color: white;
+                            height: 41px;
+                            text-transform: capitalize;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 19px;
+                            }
+                        }
+                    }
+                }
+            }
+            .feature-course-col{
+                .row{
+
+                    .col-12{
+                        .card-body{
+                            height: fit-content !important;
+                            margin-bottom: 35px;
+                            height: 131px !important;
+
+    
+                            .imgBox{
+                                position: relative;
+                                height: 131px;
+                               
+                                img{
+                                    height: 100%;
+                                    width: 100%;
+                                    position: relative;
+                                }
+    
+                                .img-title-tag{
+                                    position: absolute;
+                                    top: 6px;
+                                    right: 3px;
+                                    background-color: #FF7731;
+                                    box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+                                    border-radius: 7px;
+                                    width: 41px;
+                                    height: 25px;
+                                    span{
+                                        font-weight: 400;
+font-size: 6px;
+line-height: 8px;
+                                        color: white;
+                                    }
+                                }
+                            }
+    
+                            .paraBox{
+                                .profile-box{
+                                    img{
+                                        width: 20px;
+                                    height: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .subscribe-col{
+        background: linear-gradient(180deg, #FF7731 0%, #BB6A40 100%);
+        .row{
     
             .col-md-6{
     
@@ -251,6 +406,12 @@
                     position: absolute;
                     left: 0px;
                     z-index: 1;
+                    
+                    img{
+                        height: 150px;
+                    width: 150px;
+                    }
+
                     
                 }
             }
@@ -327,13 +488,12 @@
     }
 }
 
-.course-overfolw-container{
+.course-Overview-container{
     margin: 100px auto;
     .row{
         .col-md-4{
             .card-body{
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                height: 700px;
                 border-radius: 0;
                 padding: 50px 20px;
                 ul{
@@ -355,9 +515,6 @@
         }
     }
 }
-
-
-
 
 .videoBox{
     position: relative;
@@ -392,7 +549,6 @@
     }
 }
 
-
 .review-container{
     background-color: #F5F5F5;
     padding: 60px;
@@ -426,7 +582,6 @@
     }
 }
 
-
 .user-review-container{
     box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
     padding: 40px 20px;
@@ -440,10 +595,190 @@
         }
     }
 }
+@media (max-width:768px) {
+    .course-detail-container{
+        z-index: 3;
+        position: relative;
+        overflow: hidden;
+    
+        .container{
+        margin: 60px auto !important;
+    
+        }
+        .row{
+    
+            .card-body{
+        z-index: 3;
+    
+                .para-1{
+                    margin-top: 35px;
+                    margin-bottom: 30px;
+                }
+                .para-2{
+                    margin-bottom: 30px;
+    
+                }
+                .course-data-box{
+                    .profile-box{
+                        border-right: 1px solid gray;
+                        height: 40px;
+                        padding: 10px;
+                        img{
+                            margin-right: 5px;
+                        }
+                    }
+    
+                    .rateBox{
+                        border-right: 1px solid gray;
+                        height: 40px;
+                        display: flex;
+                        align-items: center;
+                        padding: 10px;
+    
+    
+    
+                    }
+                    .enroll-box{
+                        height: 40px;
+                        display: flex;
+                        align-items: center;
+                        padding: 10px;
+    
+                    }
+                }
+            }
+        }
+    
+        #img-data-1{
+            position: absolute;
+            top: 0px;
+            z-index: 1;
+            right:  0px;
+            height: 200px;
+            width: auto;
+        }
+    }
+    
+    .course-Overview-container{
+        margin: 60px auto;
+        .row{
+            .col-md-4{
+                .card-body{
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 0;
+                    padding: 50px 20px;
+                    ul{
+                        li{
+                            padding: 20px 0px;
+                            border-bottom: 1px solid rgba(0, 0, 0, 0.414);
+                        }
+                    }
+    
+                    .social-box{
+                        .icon-box{
+                            i{
+                                margin-right: 15px;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .videoBox{
+        position: relative;
+        width: 100%;
+        z-index: 3;
+        margin-top: 20px;
+    
+        img,video{
+            width: 100%;
+            height: 250px;
+            border-radius: 10px;
+        }
+    
+        button{
+            position: absolute;
+            top: 45%;
+            left: 45%;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 4px #9C9C9C;
+            height: 51px;
+            width: 51px;
+            border: 0;
+            border-radius: 50%;
+            i{
+                color: #FF7731;
+            }
+        }
+    
+        img:hover,video:hover{
+           button{
+            display: block;
+           }
+        }
+    }
+    
+    .review-container{
+        background-color: #F5F5F5;
+        padding: 30px;
+        box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+        margin-bottom: 70px;
+    
+        .card-body{
+            border-bottom: 1px solid #00000063;
+            border-radius: 0;
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+            .profile-box{
+                .imgBox{
+                    img{
+                        height: 100px;
+                        width: 100px;
+                    }
+                }
+
+                .paraBox{
+                    ul{
+                        .review-list{
+                            span{
+                                padding-right: 10px;
+                                padding: 10px auto;
+                                border-right: 1px solid rgba(0, 0, 0, 0.395);
+                                margin-right: 15px;
+                                ul{
+                                    .font-15{
+                                        font-weight: bold;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .user-review-container{
+        box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+        padding: 40px 20px;
+    
+        .col-md-6{
+            .card-body{
+                border-bottom: 1px solid #00000063;
+                border-radius: 0;
+                padding-bottom: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
 
 
 
-/* calss-courses-container */
+/* calss-courses-container course list.html*/
 
 .calss-courses-container{
 
@@ -495,6 +830,52 @@
             color: #FF7731 !important;
             }
             
+    }
+}
+
+@media (max-width:400px) {
+    .calss-courses-container{
+
+  
+        .row{
+          
+            .card-body{
+                height: 157px;
+                .imgBox{
+                    position: relative;
+                    img{
+                        height: 90px;
+                    }
+                }
+                .chapter-tag{
+                    width: 41px;
+                    height: 21px;
+                    background: #FF7731;
+                    border-radius: 2px;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+
+                .paraBox{
+
+                    .pf-imgBox{
+                        img{
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                    & .profile-paraBox{
+
+                    }
+                }
+            }
+    
+        }
     }
 }
 

@@ -44,106 +44,115 @@
   <body>
  
 
-    <div class="container-fluid">
+<!------start navbar------->
+<div class="container-fluid">
       
-          <div class="container p-0 navbar-main d-flex align-items-center">
-            <div class="row w-100">
+  <div class="container p-0 navbar-main d-flex align-items-center">
+    <div class="row w-100">
 
-              <div class="col-12 d-flex align-items-center">
-                <div class="logoBox">
-                  <img src="asset/logo.svg" alt="img">
-                </div>
-                <div class=" search-box">
-                  <input type="text" placeholder="Search">
-                  <i class="fas fa-search text-black"></i>
-                </div>
+      <div class="col-12 d-flex align-items-center">
+        <div class="logoBox">
+          <img src="asset/logo.svg" alt="img">
+        </div>
+        <div class=" search-box">
+          <input type="text" placeholder="Search">
+          <i class="fas fa-search text-black"></i>
 
-                <div class="d-lg-block d-none">
-                  <ul class="list-unstyled d-flex align-items-center">
-                    <li class=""><a href="index.html" class="text-dark">Home</a></li>
+        </div>
 
-
-                    <li class="dropdown"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
-                    
-                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
-
-                    <li class="dropdown"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Skills</a>
-                    
-                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
+        <div class="d-lg-block d-none">
+          <ul class="list-unstyled d-flex align-items-center">
+            <li class=""><a href="index.html" class="text-dark">Home</a></li>
 
 
-                    <li class="dropdown"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Careers</a>
-                    
-                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
-
-                    
-                    <li class=""><button class="btn-all font-sm text-dark">Contact Us</button></li>
-                    <li class=""><i class="fa-solid fa-user"></i></li>
+            <li class="dropdown desktop-nav-dd"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
+            
+              
+              <ul class="dropdown-menu desktop-nav-dd-container" aria-labelledby="dropdownMenuLink">
+               <li class="d-flex">
+                <div>
+                  <ul class="list-unstyled">
+                    <li> <a href="">Maths</a> </li>
+                    <li> <a href="">Science</a> </li>
+                    <li> <a href="">Coding</a> </li>
+                    <li> <a href="">English</a> </li>
                   </ul>
                 </div>
-                <div class="d-lg-none d-block">
-                  <span style="font-size:30px;cursor:pointer  m-auto" onclick="openNav()">&#9776;</span>
+                <div class="imgBox p-2">
+                  <img src="asset/Group 2112.png" alt="img">
+
+                  <button class="btn-sm mt-3">Book Free Trial</button>
                 </div>
+               </li>
+              
+              </ul>
+            </li>
+
+            <li class=""><a href="#" class="text-dark">Skills</a></li>
+            
 
 
-              </div>
+            <li class="dropdown"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Careers</a>
+            
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
 
-                <!-- <div class="col-lg-6 col-10 d-flex nav-L align-items-center">
-                  <div class="logoBox">
-                    <img src="asset/logo.png" alt="img">
-                  </div>
-                  <div class="input-group search-box mx-auto">
-                    <div class="form-outline">
-                      <input type="search" id="form1" class="form-control bd-r" />
-                    </div>
-                    <button type="button" class="btn btn-primary bd-l">
-                      <i class="fas fa-search text-black"></i>
-                    </button>
-                  </div>
-                </div>
+            
+            <li class=""><button class="btn-all font-sm text-dark contact-btn">Contact Us</button></li>
+            <li class=""><i class="fa-solid fa-user"></i></li>
+          </ul>
+        </div>
+        <div class="d-lg-none d-block">
+          <span style="font-size:30px;cursor:pointer  m-auto" onclick="openNav()">&#9776;</span>
+        </div>
+      </div>
 
-                <div class="col-lg-6 col-2 nav-R  my-auto mx-auto">
-                  <div class="d-lg-block d-none">
-                    <ul class="list-unstyled d-flex align-items-center justify-content-between">
-                      <li class="my-auto"><a href="home.html" class="text-dark">Home</a></li>
-                      <li class="my-auto"><a href="#" class="text-dark">Courses</a></li>
-                      <li class="my-auto"><a href="#" class="text-dark">Skills</a></li>
-                      <li class="my-auto"><a href="#" class="text-dark">Careers</a></li>
-                      <li class="my-auto"><button class="btn-all font-sm text-dark">Contact Us</button></li>
-                      <li class="my-auto"><i class="fa-solid fa-user"></i></li>
-                    </ul>
-                  </div>
-                  <div class="d-lg-none d-block">
-                    <span style="font-size:30px;cursor:pointer  m-auto" onclick="openNav()">&#9776;</span>
-                  </div>
-                </div> -->
-
-                
-            </div>
+        <!-- <div class="col-lg-6 col-10 d-flex nav-L align-items-center">
+          <div class="logoBox">
+            <img src="asset/logo.png" alt="img">
           </div>
+          <div class="input-group search-box mx-auto">
+            <div class="form-outline">
+              <input type="search" id="form1" class="form-control bd-r" />
+            </div>
+            <button type="button" class="btn btn-primary bd-l">
+              <i class="fas fa-search text-black"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-2 nav-R  my-auto mx-auto">
+          <div class="d-lg-block d-none">
+            <ul class="list-unstyled d-flex align-items-center justify-content-between">
+              <li class="my-auto"><a href="home.html" class="text-dark">Home</a></li>
+              <li class="my-auto"><a href="#" class="text-dark">Courses</a></li>
+              <li class="my-auto"><a href="#" class="text-dark">Skills</a></li>
+              <li class="my-auto"><a href="#" class="text-dark">Careers</a></li>
+              <li class="my-auto"><button class="btn-all font-sm text-dark">Contact Us</button></li>
+              <li class="my-auto"><i class="fa-solid fa-user"></i></li>
+            </ul>
+          </div>
+          <div class="d-lg-none d-block">
+            <span style="font-size:30px;cursor:pointer  m-auto" onclick="openNav()">&#9776;</span>
+          </div>
+        </div> -->
+
+        
     </div>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Clients</a>
-      <a href="#">Contact</a>
-    </div>
+  </div>
+</div>
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="#">Home</a>
+<a href="#">Courses</a>
+<a href="#">Skills</a>
+<a href="#">Careers</a>
+</div>
+<!------end navbar------->
 
     <!----start---->
 
@@ -183,7 +192,7 @@
     </div>
 
 
-    <div class="container course-overfolw-container">
+    <div class="container course-Overview-container">
       <div class="row">
         <div class="col-md-8 col-12">
           <p class="tx-orange font-para font-2">Course Overview</p>
@@ -195,35 +204,35 @@
             shall help them further get better.</p>
 
             <ul class="list-unstyled">
-                <li><i class="fa-solid fa-check i-x tx-orange"></i>Counting Numbers</li>
-                <li><i class="fa-solid fa-check i-x tx-orange"></i>Comparing small numbers</li>
-                <li><i class="fa-solid fa-check i-x tx-orange"></i>Counting from 20 to 30</li>
-                <li><i class="fa-solid fa-check i-x tx-orange"></i>What is addition?</li>
-                <li><i class="fa-solid fa-check i-x tx-orange"></i>Counting from 30 to 40</li>
-                <li><i class="fa-solid fa-check i-x tx-orange"></i>Making small numbers</li>
-                <li><i class="fa-solid fa-check i-x tx-orange"></i>Find out the missing numbers</li>
-                <li><i class="fa-solid fa-check i-x tx-orange"></i>Add 1 digit and 2 digit numbers</li>
-                <li><i class="fa-solid fa-check i-x tx-orange"></i>What is substraction?</li>
-                <li><i class="fa-solid fa-check i-x tx-orange"></i>Subtract 1 digit and 2 digit number</li>
-                <li><i class="fa-solid fa-check i-x tx-orange"></i>Counting from 50 to 50</li>
-                <li><i class="fa-solid fa-check i-x tx-orange"></i>Numbers from 50 to 100</li>
-                <li><i class="fa-solid fa-check i-x tx-orange"></i>Subtract within 10</li>
-                <li><i class="fa-solid fa-check i-x tx-orange"></i>Relate addition and subtraction</li>
-                <li><i class="fa-solid fa-check i-x tx-orange"></i>Geometry</li>
-                <li><i class="fa-solid fa-check i-x tx-orange"></i>Shapes</li>
+                <li class="font-15 my-2"><i class="fa-solid fa-check i-x tx-orange"></i>Counting Numbers</li>
+                <li class="font-15 my-2"><i class="fa-solid fa-check i-x tx-orange"></i>Comparing small numbers</li>
+                <li class="font-15 my-2"><i class="fa-solid fa-check i-x tx-orange"></i>Counting from 20 to 30</li>
+                <li class="font-15 my-2"><i class="fa-solid fa-check i-x tx-orange"></i>What is addition?</li>
+                <li class="font-15 my-2"><i class="fa-solid fa-check i-x tx-orange"></i>Counting from 30 to 40</li>
+                <li class="font-15 my-2"><i class="fa-solid fa-check i-x tx-orange"></i>Making small numbers</li>
+                <li class="font-15 my-2"><i class="fa-solid fa-check i-x tx-orange"></i>Find out the missing numbers</li>
+                <li class="font-15 my-2"><i class="fa-solid fa-check i-x tx-orange"></i>Add 1 digit and 2 digit numbers</li>
+                <li class="font-15 my-2"><i class="fa-solid fa-check i-x tx-orange"></i>What is substraction?</li>
+                <li class="font-15 my-2"><i class="fa-solid fa-check i-x tx-orange"></i>Subtract 1 digit and 2 digit number</li>
+                <li class="font-15 my-2"><i class="fa-solid fa-check i-x tx-orange"></i>Counting from 50 to 50</li>
+                <li class="font-15 my-2"><i class="fa-solid fa-check i-x tx-orange"></i>Numbers from 50 to 100</li>
+                <li class="font-15 my-2"><i class="fa-solid fa-check i-x tx-orange"></i>Subtract within 10</li>
+                <li class="font-15 my-2"><i class="fa-solid fa-check i-x tx-orange"></i>Relate addition and subtraction</li>
+                <li class="font-15 my-2"><i class="fa-solid fa-check i-x tx-orange"></i>Geometry</li>
+                <li class="font-15 my-2"><i class="fa-solid fa-check i-x tx-orange"></i>Shapes</li>
             </ul>
         </div>
 
         <div class="col-md-4 col-12">
           <div class="card-body">
             <ul class="list-unstyled">
-              <li class="d-flex justify-content-between"> <span class="data-type"><i class="fas fa-signal i-x tx-orange"></i>Course Level</span> <span class="data-data">Beginner</span> </li>
-              <li class="d-flex justify-content-between"> <span class="data-type"><i class="fa-regular fa-clock i-x tx-orange"></i>Course Duration</span> <span class="data-data">10 weeks</span> </li>
-              <li class="d-flex justify-content-between"> <span class="data-type"><i class="fa-regular fa-clock i-x tx-orange"></i>Chapters</span> <span class="data-data">16</span> </li>
-              <li class="d-flex justify-content-between"> <span class="data-type"><i class="fa-regular fa-clock i-x tx-orange"></i>Pass Percentage</span> <span class="data-data">90 above</span> </li>
-              <li class="d-flex justify-content-between"> <span class="data-type"><i class="fa-regular fa-clock i-x tx-orange"></i>Certificate</span> <span class="data-data">100 %Authentic</span> </li>
-              <li class="d-flex justify-content-between"> <span class="data-type"><i class="fa-regular fa-clock i-x tx-orange"></i>Quiz</span> <span class="data-data">After every session</span> </li>
-              <li class="d-flex justify-content-between border-0"> <span class="data-type"><i class="fa-regular fa-clock i-x tx-orange"></i>Language</span> <span class="data-data d-flex"><label class="radio-wrapper">Hindi
+              <li class="font-para d-flex justify-content-between"> <span class="data-type"><i class="fas fa-signal i-x tx-orange"></i>Course Level</span> <span class="data-data">Beginner</span> </li>
+              <li class="font-para d-flex justify-content-between"> <span class="data-type"><i class="fa-regular fa-clock i-x tx-orange"></i>Course Duration</span> <span class="data-data">10 weeks</span> </li>
+              <li class="font-para d-flex justify-content-between"> <span class="data-type"><i class="fa-regular fa-clock i-x tx-orange"></i>Chapters</span> <span class="data-data">16</span> </li>
+              <li class="font-para d-flex justify-content-between"> <span class="data-type"><i class="fa-regular fa-clock i-x tx-orange"></i>Pass Percentage</span> <span class="data-data">90 above</span> </li>
+              <li class="font-para d-flex justify-content-between"> <span class="data-type"><i class="fa-regular fa-clock i-x tx-orange"></i>Certificate</span> <span class="data-data">100 %Authentic</span> </li>
+              <li class="font-para d-flex justify-content-between"> <span class="data-type"><i class="fa-regular fa-clock i-x tx-orange"></i>Quiz</span> <span class="data-data">After every session</span> </li>
+              <li class="font-para d-flex justify-content-between border-0"> <span class="data-type"><i class="fa-regular fa-clock i-x tx-orange"></i>Language</span> <span class="data-data d-flex"><label class="radio-wrapper">Hindi
                 <input type="radio" checked="checked" name="Language">
                 <span class="checkmark"></span>
               </label>

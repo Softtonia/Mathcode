@@ -42,29 +42,17 @@
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
-    padding: 15px 20px;
+    // padding: 15px 20px;
     border: none;
-    min-width: 100px;;
+    min-width: 100px;
+
+    height: 50px;
+    width: 213px;
+
+
 }
 
-@media (max-width:400px) {
-    .btn-all{
 
-        width: 81px !important;
-        height: 20px;
-        background: #FF7731;
-        border-radius: 13px;
-
-        box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
-        font-weight: 800;
-        font-size: 6px;
-        line-height: 7px;
-        color: #FFFFFF;
-        padding: 6px 10px;
-        border: none;
-        
-    }
-}
 
 .btn-tp-bb{
     color: #FF7731;
@@ -95,11 +83,57 @@
 
 color: #FFFFFF;
 }
+
+
+.btn-sm{
+    background: #FF7731;
+    box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+    border-radius: 59px;
+    font-weight: 800;
+    font-size: 10px;
+    color: #FFFFFF;
+    border: none;
+    min-width: 90px;
+    height: 30px;
+}
+
+
+@media (max-width:400px) {
+    .btn-all{
+
+        width: 81px !important;
+        height: 25px;
+        background: #FF7731;
+        border-radius: 13px;
+
+        box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+        font-weight: 800;
+        font-size: 6px;
+        line-height: 7px;
+        color: #FFFFFF;
+        // padding: 6px 10px;
+        border: none;
+        
+    }
+
+
+    .btn-sec{
+ 
+        background: #FF7731;
+        box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+        width: 60px;
+        height: 24px;
+        border-radius: 2px;
+        font-weight: 600;
+        font-size: 8px;
+        line-height: 10px;
+        border: none;
+        color: #FFFFFF;
+    }
+}
 /* card body */
 .card-body{
     border-radius: 10px;
-
-    
 }
 
 /* color */
@@ -360,6 +394,11 @@ line-height: 17px;
     font-size: 10px;
 }
 
+.font-star{
+    font-size: 10px;
+    
+}
+
 
 @media (max-width:400px) {
     
@@ -405,10 +444,16 @@ line-height: 10px;
 
 
 .font-14{
-    font-weight: 700;
-    font-size: 14px !important;
-    line-height: 17px;
+    font-weight: 400;
+font-size: 8px;
+line-height: 10px;
     }
+
+    .font-14-400{
+        font-weight: 400;
+        font-size: 6px;
+        line-height: 8px;
+        }
 
 .font-lt{
 font-weight: 400;
@@ -417,9 +462,13 @@ line-height: 17px;
 }
 
 .font-10{
-    font-size: 10px;
+    font-size: 5px;
+    
 }
 
+.font-star{
+    font-size: 4px;
+}
 
 }
 
@@ -590,6 +639,43 @@ border-bottom: 1px solid #FFFFFF;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+
+
+    .accordion{
+        .accordion-item{
+            .accordion-header{
+
+                .accordion-button{
+                    background-color: transparent;
+                    padding: 0;
+                    font-size: 25px;
+                    color: #818181;
+                    box-shadow: none;
+                    outline: none;
+                    width: fit-content;
+                }
+
+                .accordion-button:after {
+                    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23818181'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+                  }
+            }
+
+            #collapseOne{
+                .accordion-body{
+                    background-color: #FF7731;
+                    padding: 0;
+                    ul{
+                        margin-top: 0px;
+                        padding: 5px;
+                        li{
+                            
+                                font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
   }
   
   .sidenav a {
@@ -599,6 +685,8 @@ border-bottom: 1px solid #FFFFFF;
   color: #818181;
   display: block;
   transition: 0.3s;
+
+
   }
   
   .sidenav a:hover {
@@ -689,3 +777,48 @@ border-bottom: 1px solid #FFFFFF;
 
 
 /* video */
+
+
+
+
+/* navbar dropdown */
+
+.desktop-nav-dd{
+    .desktop-nav-dd-container{
+        margin-top: -2px !important;
+        width: 200px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px #EE8047;
+        border-radius: 0;
+        border: 0px;
+        height:150px !important;
+
+            ul{
+                li{
+                    a{
+                        font-weight: 500;
+                        font-size: 13px;
+                        line-height: 16px;  
+                        color: black;
+                    }
+                }
+            }
+
+
+    .imgBox{
+        img{
+            height: 80px;
+            width: 80px;
+        }
+    }
+
+    }
+ 
+}
+
+.desktop-nav-dd:hover{
+    .dropdown-menu{
+    display: block !important;
+}
+}
+

@@ -65,75 +65,85 @@
   <body>
  
 
-    <div class="container-fluid">
+ <!------start navbar------->
+<div class="container-fluid">
       
-          <div class="container p-0 navbar-main d-flex align-items-center">
-            <div class="row w-100">
+  <div class="container p-0 navbar-main d-flex align-items-center">
+    <div class="row w-100">
 
-              <div class="col-12 d-flex align-items-center">
-                <div class="logoBox">
-                  <img src="asset/logo.svg" alt="img">
-                </div>
-                <div class=" search-box">
-                  <input type="text" placeholder="Search">
-                  <i class="fas fa-search text-black"></i>
-                </div>
+      <div class="col-12 d-flex align-items-center">
+        <div class="logoBox">
+          <img src="asset/logo.svg" alt="img">
+        </div>
+        <div class=" search-box">
+          <input type="text" placeholder="Search">
+          <i class="fas fa-search text-black"></i>
 
-                <div class="d-lg-block d-none">
-                  <ul class="list-unstyled d-flex align-items-center">
-                    <li class=""><a href="index.html" class="text-dark">Home</a></li>
+        </div>
 
-
-                    <li class="dropdown"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
-                    
-                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
-
-                    <li class="dropdown"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Skills</a>
-                    
-                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
+        <div class="d-lg-block d-none">
+          <ul class="list-unstyled d-flex align-items-center">
+            <li class=""><a href="index.html" class="text-dark">Home</a></li>
 
 
-                    <li class="dropdown"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Careers</a>
-                    
-                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
-
-                    
-                    <li class=""><button class="btn-all font-sm text-dark">Contact Us</button></li>
-                    <li class=""><i class="fa-solid fa-user"></i></li>
+            <li class="dropdown desktop-nav-dd"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
+            
+              
+              <ul class="dropdown-menu desktop-nav-dd-container" aria-labelledby="dropdownMenuLink">
+               <li class="d-flex">
+                <div>
+                  <ul class="list-unstyled">
+                    <li> <a href="">Maths</a> </li>
+                    <li> <a href="">Science</a> </li>
+                    <li> <a href="">Coding</a> </li>
+                    <li> <a href="">English</a> </li>
                   </ul>
                 </div>
-                <div class="d-lg-none d-block">
-                  <span style="font-size:30px;cursor:pointer  m-auto" onclick="openNav()">&#9776;</span>
+                <div class="imgBox p-2">
+                  <img src="asset/Group 2112.png" alt="img">
+
+                  <button class="btn-sm mt-3">Book Free Trial</button>
                 </div>
+               </li>
+              
+              </ul>
+            </li>
+
+            <li class=""><a href="#" class="text-dark">Skills</a></li>
+            
 
 
-              </div>
+            <li class="dropdown"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Careers</a>
+            
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
 
-            </div>
-          </div>
+            
+            <li class=""><button class="btn-all font-sm text-dark contact-btn">Contact Us</button></li>
+            <li class=""><i class="fa-solid fa-user"></i></li>
+          </ul>
+        </div>
+        <div class="d-lg-none d-block">
+          <span style="font-size:30px;cursor:pointer  m-auto" onclick="openNav()">&#9776;</span>
+        </div>
+      </div>
     </div>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Clients</a>
-      <a href="#">Contact</a>
-    </div>
+  </div>
+</div>
+
+
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="#">Home</a>
+<a href="#">Courses</a>
+<a href="#">Skills</a>
+<a href="#">Careers</a>
+</div>
+<!------end navbar------->
 
     <!----breadcrumb---->
 
@@ -153,6 +163,39 @@
 
     <div class="container join-mathcode-app">
         <div class="row">
+
+
+          <div class="col-12 sp-80">
+            <p class="font-para tx-orange font-2">We’re busy parents too!</p>
+            <div class="row">
+              <div class="col-12">
+                <p class="font-16-600">Our courses are designed keeping you in mind</p>
+                <p class="font-16-600">At your place</p>
+                <ul  class="">
+                  <li>We are complete Live 1:1 online academy.</li>
+                  <li>Children can learn from the comfort of their home</li>
+                </ul>
+
+
+                <p class="font-16-600">At your place</p>
+                <ul  class="">
+                  <li>Every child has their own learning journey. </li>
+                  <li>Our curriculum is personalized and designed to match your child's pace </li>
+                </ul>
+
+                <p class="font-16-600">At your Time</p>
+                <ul  class="">
+                  <li>Online classes mean you save time, so no more being a chauffeur for your child.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <hr>
+          <div class="col-12 sp-50">
+            <p class="text-center font-15">Request You  to fill the form below, so we can initiate conversation!</p>
+          </div>
+
             <div class="col-12 text-center bg-orange banner-tx d-flex align-items-center justify-content-center">
                 <p class="my-auto text-white font-16-600">Please fill the form below and our Student Counsellor will get in touch to schedule a covenient time for the trial class for you child</p>
             </div>
@@ -275,11 +318,6 @@
                         </div>
                       </div>
 
-                      
-
-                   
-
-                    
                     
                     <div class="form-group my-sm-3 my-2 col-12">
                       <button class="btn-sec rounded-1" type="submit">Submit form</button>
