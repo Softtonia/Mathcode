@@ -50,12 +50,11 @@
 
       <div class="col-12 d-flex align-items-center">
         <div class="logoBox">
-          <img src="asset/logo.svg" alt="img">
+         <a href="index.html"> <img src="asset/logo.svg" alt="img"></a>
         </div>
         <div class=" search-box">
           <input type="text" placeholder="Search">
           <i class="fas fa-search text-black"></i>
-
         </div>
 
         <div class="d-lg-block d-none">
@@ -64,44 +63,42 @@
 
 
             <li class="dropdown desktop-nav-dd"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
-            
-              
               <ul class="dropdown-menu desktop-nav-dd-container" aria-labelledby="dropdownMenuLink">
                <li class="d-flex">
                 <div>
                   <ul class="list-unstyled">
-                    <li> <a href="">Maths</a> </li>
-                    <li> <a href="">Science</a> </li>
-                    <li> <a href="">Coding</a> </li>
-                    <li> <a href="">English</a> </li>
+                    <li> <a href="courseslist.html">Maths</a> </li>
+                    <li> <a href="courseslist.html">Science</a> </li>
+                    <li> <a href="courseslist.html">Coding</a> </li>
+                    <li> <a href="courseslist.html">English</a> </li>
                   </ul>
                 </div>
                 <div class="imgBox p-2">
                   <img src="asset/Group 2112.png" alt="img">
 
-                  <button class="btn-sm mt-3">Book Free Trial</button>
+                  <button class="btn-sm mt-3"><a href="parentsignup.html">Book Free Trial</a></button>
                 </div>
                </li>
               
               </ul>
             </li>
 
-            <li class=""><a href="#" class="text-dark">Skills</a></li>
+            <li class=""><a href="faq.html" class="text-dark">Skills</a></li>
             
 
 
-            <li class="dropdown"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Careers</a>
-            
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li class="dropdown desktop-nav-dd-career"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Careers</a>
+              <ul class="dropdown-menu desktop-nav-dd-career-container" aria-labelledby="dropdownMenuLink">
+                <li class="my-2"><a href="joinmathcodeform.html">Join MathCode</a> </li>
+                <li class="my-2"><a href="joinmathcodeteacher.html">Join As Teacher</a> </li>
+               
+               
               </ul>
             </li>
 
             
-            <li class=""><button class="btn-all font-sm text-dark contact-btn">Contact Us</button></li>
-            <li class=""><i class="fa-solid fa-user"></i></li>
+            <li class=""><button class="btn-all font-sm text-dark contact-btn"><a href="parentsignup.html" class="text-white">Contact Us</a></button></li>
+            <!-- <li class=""><i class="fa-solid fa-user"></i></li> -->
           </ul>
         </div>
         <div class="d-lg-none d-block">
@@ -109,46 +106,69 @@
         </div>
       </div>
 
-        <!-- <div class="col-lg-6 col-10 d-flex nav-L align-items-center">
-          <div class="logoBox">
-            <img src="asset/logo.png" alt="img">
-          </div>
-          <div class="input-group search-box mx-auto">
-            <div class="form-outline">
-              <input type="search" id="form1" class="form-control bd-r" />
-            </div>
-            <button type="button" class="btn btn-primary bd-l">
-              <i class="fas fa-search text-black"></i>
-            </button>
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-2 nav-R  my-auto mx-auto">
-          <div class="d-lg-block d-none">
-            <ul class="list-unstyled d-flex align-items-center justify-content-between">
-              <li class="my-auto"><a href="home.html" class="text-dark">Home</a></li>
-              <li class="my-auto"><a href="#" class="text-dark">Courses</a></li>
-              <li class="my-auto"><a href="#" class="text-dark">Skills</a></li>
-              <li class="my-auto"><a href="#" class="text-dark">Careers</a></li>
-              <li class="my-auto"><button class="btn-all font-sm text-dark">Contact Us</button></li>
-              <li class="my-auto"><i class="fa-solid fa-user"></i></li>
-            </ul>
-          </div>
-          <div class="d-lg-none d-block">
-            <span style="font-size:30px;cursor:pointer  m-auto" onclick="openNav()">&#9776;</span>
-          </div>
-        </div> -->
-
-        
     </div>
   </div>
 </div>
 <div id="mySidenav" class="sidenav">
 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-<a href="#">Home</a>
-<a href="#">Courses</a>
-<a href="#">Skills</a>
-<a href="#">Careers</a>
+<a href="index.html">Home</a>
+<a href="about.html">About Us</a>
+
+<a href="#">
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item border-0">
+    <h2 class="accordion-header border-0" id="headingOne">
+      <button class="accordion-button border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Courses
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse hide" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul class="list-unstyled" >
+          <li onclick="location.href='courseslist.html'" >  Maths </li>
+          <li onclick="location.href='courseslist.html'" >  Science </li>
+          <li onclick="location.href='courseslist.html'" >  Coding </li>
+          <li onclick="location.href='courseslist.html'" >  English </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</a>
+
+
+
+<a href="faq.html">Skills</a>
+
+
+<a href="#">
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item border-0">
+    <h2 class="accordion-header border-0" id="headingOne">
+      <button class="accordion-button border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+        Careers
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse hide" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul class="list-unstyled" >
+          <li onclick="location.href='joinmathcodeform.html'"> Join MathCode </li>
+          <li onclick="location.href='joinmathcodeteacher.html'"> Join As Teacher  </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</a>
+
+<a href="parentsignup.html">Contact Us</a>
+
 </div>
 <!------end navbar------->
 
@@ -340,8 +360,8 @@
                         <div class="col-md-2">
                           <ul class="list-unstyled">
                             <p class="title-tag">Company</p>
-                            <li class="my-2 text-start"> <a href="#" class="text-black font-lt">About Us</a></li>
-                              <li class="my-2 text-start"> <a href="#" class="text-black font-lt">Career</a></li>
+                            <li class="my-2 text-start"> <a href="about.html" class="text-black font-lt">About Us</a></li>
+                              <li class="my-2 text-start"> <a href="joinmathcodeteacher.html" class="text-black font-lt">Career</a></li>
                                 <li class="my-2 text-start"> <a href="#" class="text-black font-lt">Advertise</a></li>
                                   <li class="my-2 text-start"> <a href="#" class="text-black font-lt">Terms of Service</a></li>
                                     <li class="my-2 text-start"> <a href="#" class="text-black font-lt">Help & Support</a></li>

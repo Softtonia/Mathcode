@@ -603,17 +603,17 @@ a {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23818181'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
 
-.sidenav .accordion .accordion-item #collapseOne .accordion-body {
+.sidenav .accordion .accordion-item .accordion-collapse .accordion-body {
   background-color: #FF7731;
   padding: 0;
 }
 
-.sidenav .accordion .accordion-item #collapseOne .accordion-body ul {
+.sidenav .accordion .accordion-item .accordion-collapse .accordion-body ul {
   margin-top: 0px;
   padding: 5px;
 }
 
-.sidenav .accordion .accordion-item #collapseOne .accordion-body ul li {
+.sidenav .accordion .accordion-item .accordion-collapse .accordion-body ul li {
   font-size: 16px;
 }
 
@@ -711,7 +711,26 @@ a {
   width: 80px;
 }
 
-.desktop-nav-dd:hover .dropdown-menu {
+.desktop-nav-dd .desktop-nav-dd-container .imgBox button a {
+  text-decoration: none;
+  color: white;
+}
+
+.desktop-nav-dd:hover .dropdown-menu, .desktop-nav-dd-career:hover .dropdown-menu {
   display: block !important;
+}
+
+.desktop-nav-dd-career-container {
+  margin-top: -2px !important;
+  width: 200px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 4px #EE8047;
+          box-shadow: 0px 4px 4px #EE8047;
+  border-radius: 0;
+  border: 0px;
+}
+
+.desktop-nav-dd-career-container li a {
+  color: black;
 }
 /*# sourceMappingURL=main.css.map */
