@@ -1,0 +1,246 @@
+.career-container{
+    .block1{
+        margin-top: 35px;
+        margin-bottom: 300px;
+        .col-12{
+            margin: 17px 0px;
+            
+            ul{
+                
+                li{
+                    font-size: 16px;
+                    font-weight: 700;
+                    list-style: decimal;
+                    width: fit-content;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:400px) {
+    .career-container{
+        .block1{
+            margin-top: 35px;
+            margin-bottom: 100px;
+            .col-12{
+                margin: 17px 0px;
+                
+                ul{
+                    
+                    li{
+                        font-size: 12px;
+                        font-weight: 700;
+                        list-style: decimal;
+                        width: fit-content;
+                        a{
+                            text-decoration: none;
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.career-teacher-container{
+    .block1{
+        .col-12{
+            .card-body{
+                border-radius: 0px;
+                height: 200px;
+                border: 1px solid #FF7731;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+                display: flex;
+                justify-content: start;
+                align-items: flex-start;
+                flex-direction: column;
+                padding: 16px;
+                transition: 0.3s ease-in-out;
+                font-size: 14px;
+
+                .icon-box{
+                    width: 75px;
+                    height: 75px;
+                    background: #FFFFFF;
+                    border: 2px solid #FF7731;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    img{
+                        height: 40px;
+                        width: 40px;
+                    }
+                }
+
+
+            }
+            .card-body:hover{
+                background-color: #FF7731;
+                color: white;
+            }
+
+            form{
+                .form-group{
+                    input,select{
+                        border: 0.5px solid #00000056;
+                        border-radius: 0px;
+                    }
+
+
+                    input[type="submit"]{
+                        background-color: #FF7731;
+                        color: white;
+                        border: 0px;
+                        box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+                        border-radius: 59px;
+                        margin: 60px 0px;
+                    }
+                }
+            }
+        }
+
+        .banner-btn{
+            height: 50px;
+            margin: 60px 0px;
+            box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+        }
+
+       
+    }
+}
+@media (max-width:768px) {
+    
+.career-teacher-container{
+    .block1{
+        .col-12{
+            .card-body{
+                border-radius: 0px;
+                height: 150px;
+                border: 1px solid #FF7731;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+                display: flex;
+                justify-content: start;
+                align-items: flex-start;
+                flex-direction: column;
+                padding: 16px;
+                transition: 0.3s ease-in-out;
+                font-size: 14px;
+
+                .icon-box{
+                    width: 50px;
+                    height: 50px;
+                    background: #FFFFFF;
+                    border: 2px solid #FF7731;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    img{
+                        height: 30px;
+                        width: 30px;
+                    }
+                }
+
+
+            }
+            .card-body:hover{
+                background-color: #FF7731;
+                color: white;
+            }
+
+            form{
+                .form-group{
+                    input,select{
+                        border: 0.5px solid #00000056;
+                        border-radius: 0px;
+                    }
+
+
+                    input[type="submit"]{
+                        background-color: #FF7731;
+                        color: white;
+                        border: 0px;
+                        box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+                        border-radius: 59px;
+                        margin: 60px 0px;
+                    }
+                }
+            }
+        }
+
+        .banner-btn{
+            height: 50px;
+            margin: 60px 0px;
+            box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+        }
+
+       
+    }
+}
+}
+
+.career-other-container{
+
+        .block1{
+            .col-12{
+                .card-body{
+                    border-radius: 0px;
+                    height: 136px;
+                    border: 1px solid #FF7731;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+                    display: flex;
+                    justify-content: start;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    padding: 16px;
+                    transition: 0.3s ease-in-out;
+                    color: #FF7731;
+    
+    
+                }
+                .card-body:hover{
+                    background-color: #FF7731;
+                    color: white;
+                }
+    
+                form{
+                    .form-group{
+                        input,select{
+                            border: 0.5px solid #00000056;
+                            border-radius: 0px;
+                        }
+    
+    
+                        input[type="submit"]{
+                            background-color: #FF7731;
+                            color: white;
+                            border: 0px;
+                            box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+                            border-radius: 59px;
+                            margin: 60px 0px;
+                        }
+                    }
+                }
+            }
+    
+            .banner-btn{
+                height: 50px;
+                margin: 60px 0px;
+                box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+            }
+    
+           
+        }
+}
+

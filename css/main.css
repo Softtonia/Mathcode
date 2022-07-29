@@ -300,6 +300,12 @@
 }
 
 /* font size */
+.font-24-700 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
 .title-tag {
   font-weight: 600;
   font-size: 16px;
@@ -315,6 +321,12 @@
 
 .font-18 {
   font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.font-18-700 {
+  font-weight: 700;
   font-size: 18px;
   line-height: 22px;
 }
@@ -388,6 +400,16 @@
 }
 
 @media (max-width: 400px) {
+  .font-24-700 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+  }
+  .font-18-700 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+  }
   .font-lg {
     font-weight: 800;
     font-size: 20px;
@@ -590,7 +612,7 @@ a {
   background-color: transparent;
   padding: 0;
   font-size: 25px;
-  color: #818181;
+  color: black;
   -webkit-box-shadow: none;
           box-shadow: none;
   outline: none;
@@ -600,7 +622,7 @@ a {
 }
 
 .sidenav .accordion .accordion-item .accordion-header .accordion-button:after {
-  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23818181'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23black'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
 
 .sidenav .accordion .accordion-item .accordion-collapse .accordion-body {
@@ -621,7 +643,7 @@ a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: black;
   display: block;
   -webkit-transition: 0.3s;
   transition: 0.3s;

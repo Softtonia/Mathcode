@@ -1,0 +1,247 @@
+.career-container .block1 {
+  margin-top: 35px;
+  margin-bottom: 300px;
+}
+
+.career-container .block1 .col-12 {
+  margin: 17px 0px;
+}
+
+.career-container .block1 .col-12 ul li {
+  font-size: 16px;
+  font-weight: 700;
+  list-style: decimal;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.career-container .block1 .col-12 ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 400px) {
+  .career-container .block1 {
+    margin-top: 35px;
+    margin-bottom: 100px;
+  }
+  .career-container .block1 .col-12 {
+    margin: 17px 0px;
+  }
+  .career-container .block1 .col-12 ul li {
+    font-size: 12px;
+    font-weight: 700;
+    list-style: decimal;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .career-container .block1 .col-12 ul li a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.career-teacher-container .block1 .col-12 .card-body {
+  border-radius: 0px;
+  height: 200px;
+  border: 1px solid #FF7731;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 16px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  font-size: 14px;
+}
+
+.career-teacher-container .block1 .col-12 .card-body .icon-box {
+  width: 75px;
+  height: 75px;
+  background: #FFFFFF;
+  border: 2px solid #FF7731;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.career-teacher-container .block1 .col-12 .card-body .icon-box img {
+  height: 40px;
+  width: 40px;
+}
+
+.career-teacher-container .block1 .col-12 .card-body:hover {
+  background-color: #FF7731;
+  color: white;
+}
+
+.career-teacher-container .block1 .col-12 form .form-group input, .career-teacher-container .block1 .col-12 form .form-group select {
+  border: 0.5px solid #00000056;
+  border-radius: 0px;
+}
+
+.career-teacher-container .block1 .col-12 form .form-group input[type="submit"] {
+  background-color: #FF7731;
+  color: white;
+  border: 0px;
+  -webkit-box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+          box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+  border-radius: 59px;
+  margin: 60px 0px;
+}
+
+.career-teacher-container .block1 .banner-btn {
+  height: 50px;
+  margin: 60px 0px;
+  -webkit-box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+          box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+}
+
+@media (max-width: 768px) {
+  .career-teacher-container .block1 .col-12 .card-body {
+    border-radius: 0px;
+    height: 150px;
+    border: 1px solid #FF7731;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 16px;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    font-size: 14px;
+  }
+  .career-teacher-container .block1 .col-12 .card-body .icon-box {
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #FF7731;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px;
+  }
+  .career-teacher-container .block1 .col-12 .card-body .icon-box img {
+    height: 30px;
+    width: 30px;
+  }
+  .career-teacher-container .block1 .col-12 .card-body:hover {
+    background-color: #FF7731;
+    color: white;
+  }
+  .career-teacher-container .block1 .col-12 form .form-group input, .career-teacher-container .block1 .col-12 form .form-group select {
+    border: 0.5px solid #00000056;
+    border-radius: 0px;
+  }
+  .career-teacher-container .block1 .col-12 form .form-group input[type="submit"] {
+    background-color: #FF7731;
+    color: white;
+    border: 0px;
+    -webkit-box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+            box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+    border-radius: 59px;
+    margin: 60px 0px;
+  }
+  .career-teacher-container .block1 .banner-btn {
+    height: 50px;
+    margin: 60px 0px;
+    -webkit-box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+            box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+  }
+}
+
+.career-other-container .block1 .col-12 .card-body {
+  border-radius: 0px;
+  height: 136px;
+  border: 1px solid #FF7731;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 16px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  color: #FF7731;
+}
+
+.career-other-container .block1 .col-12 .card-body:hover {
+  background-color: #FF7731;
+  color: white;
+}
+
+.career-other-container .block1 .col-12 form .form-group input, .career-other-container .block1 .col-12 form .form-group select {
+  border: 0.5px solid #00000056;
+  border-radius: 0px;
+}
+
+.career-other-container .block1 .col-12 form .form-group input[type="submit"] {
+  background-color: #FF7731;
+  color: white;
+  border: 0px;
+  -webkit-box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+          box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+  border-radius: 59px;
+  margin: 60px 0px;
+}
+
+.career-other-container .block1 .banner-btn {
+  height: 50px;
+  margin: 60px 0px;
+  -webkit-box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+          box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+}
+/*# sourceMappingURL=career.css.map */

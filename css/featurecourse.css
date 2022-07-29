@@ -675,6 +675,11 @@
   color: white;
 }
 
+.calss-courses-container .row .card-body .paraBox a {
+  color: #FF7731;
+  text-decoration: none;
+}
+
 .calss-courses-container .row .slick-prev.slick-arrow {
   background-color: #FF7731;
   position: absolute;

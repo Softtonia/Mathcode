@@ -80,133 +80,107 @@
   <body>
  
 <!------start navbar------->
-    <div class="container-fluid">
+<div class="container-fluid">
       
-          <div class="container p-0 navbar-main d-flex align-items-center">
-            <div class="row w-100">
+  <div class="container p-0 navbar-main d-flex align-items-center">
+    <div class="row w-100">
 
-              <div class="col-12 d-flex align-items-center">
-                <div class="logoBox">
-                 <a href="index.html"> <img src="asset/logo.svg" alt="img"></a>
-                </div>
-                <div class=" search-box">
-                  <input type="text" placeholder="Search">
-                  <i class="fas fa-search text-black"></i>
-                </div>
+      <div class="col-12 d-flex align-items-center">
+        <div class="logoBox">
+         <a href="index.html"> <img src="asset/logo.svg" alt="img"></a>
+        </div>
+        <div class=" search-box">
+          <input type="text" placeholder="Search">
+          <i class="fas fa-search text-black"></i>
+        </div>
 
-                <div class="d-lg-block d-none">
-                  <ul class="list-unstyled d-flex align-items-center">
-                    <li class=""><a href="index.html" class="text-dark">Home</a></li>
-
-
-                    <li class="dropdown desktop-nav-dd"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
-                      <ul class="dropdown-menu desktop-nav-dd-container" aria-labelledby="dropdownMenuLink">
-                       <li class="d-flex">
-                        <div>
-                          <ul class="list-unstyled">
-                            <li> <a href="courseslist.html">Maths</a> </li>
-                            <li> <a href="courseslist.html">Science</a> </li>
-                            <li> <a href="courseslist.html">Coding</a> </li>
-                            <li> <a href="courseslist.html">English</a> </li>
-                          </ul>
-                        </div>
-                        <div class="imgBox p-2">
-                          <img src="asset/Group 2112.png" alt="img">
-
-                          <button class="btn-sm mt-3"><a href="parentsignup.html">Book Free Trial</a></button>
-                        </div>
-                       </li>
-                      
-                      </ul>
-                    </li>
-
-                    <li class=""><a href="faq.html" class="text-dark">Skills</a></li>
-                    
+        <div class="d-lg-block d-none">
+          <ul class="list-unstyled d-flex align-items-center">
+            <li class=""><a href="index.html" class="text-dark">Home</a></li>
+            <li class=""><a href="about.html" class="text-dark">About</a></li>
 
 
-                    <li class="dropdown desktop-nav-dd-career"><a href="#" class="text-dark dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Careers</a>
-                      <ul class="dropdown-menu desktop-nav-dd-career-container" aria-labelledby="dropdownMenuLink">
-                        <li class="my-2"><a href="joinmathcodeform.html">Join MathCode</a> </li>
-                        <li class="my-2"><a href="joinmathcodeteacher.html">Join As Teacher</a> </li>
-                       
-                       
-                      </ul>
-                    </li>
-
-                    
-                    <li class=""><button class="btn-all font-sm text-dark contact-btn"><a href="parentsignup.html" class="text-white">Contact Us</a></button></li>
-                    <!-- <li class=""><i class="fa-solid fa-user"></i></li> -->
+            <li class="d-flex">
+              <span><a href="featuredcourses.html" class="text-black">Courses</a></span> <div class="dd-hov"><i class="fa-solid fa-sort-down"></i>
+              
+               <div class="dd-hov-content">
+               <div class="hov-content  d-flex">
+                <div>
+                  <ul class="list-unstyled">
+                    <li> <a href="courseslist.html">Maths</a> </li>
+                    <li> <a href="courseslist.html">Science</a> </li>
+                    <li> <a href="courseslist.html">Coding</a> </li>
+                    <li> <a href="courseslist.html">English</a> </li>
                   </ul>
                 </div>
-                <div class="d-lg-none d-block">
-                  <span style="font-size:30px;cursor:pointer  m-auto" onclick="openNav()">&#9776;</span>
+                <div class="imgBox p-2">
+                  <img src="asset/Group 2112.png" alt="img">
+
+                  <button class="btn-sm mt-3"><a href="parentsignup.html">Book Free Trial</a></button>
                 </div>
+               </div>
+               </div>
               </div>
+            </li>
 
-            </div>
-          </div>
-    </div>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
+            <li class=""><a href="skills.html" class="text-dark">Skills</a></li>
+            <li class=""><a href="faq.html" class="text-dark">Faq</a></li>
 
-      <a href="#">
-        
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item border-0">
-            <h2 class="accordion-header border-0" id="headingOne">
-              <button class="accordion-button border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Courses
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse hide" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <ul class="list-unstyled" >
-                  <li onclick="location.href='courseslist.html'" >  Maths </li>
-                  <li onclick="location.href='courseslist.html'" >  Science </li>
-                  <li onclick="location.href='courseslist.html'" >  Coding </li>
-                  <li onclick="location.href='courseslist.html'" >  English </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-      
+            <li class=""><a href="career.html" class="text-dark">Career</a></li>
+
+            <li class=""><button class="btn-all font-sm text-dark contact-btn"><a href="parentsignup.html" class="text-white">Contact Us</a></button></li>
+         
+          </ul>
         </div>
-
-      </a>
-
-
-
-      <a href="faq.html">Skills</a>
-
-
-      <a href="#">
-        
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item border-0">
-            <h2 class="accordion-header border-0" id="headingOne">
-              <button class="accordion-button border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                Careers
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse hide" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <ul class="list-unstyled" >
-                  <li onclick="location.href='joinmathcodeform.html'"> Join MathCode </li>
-                  <li onclick="location.href='joinmathcodeteacher.html'"> Join As Teacher  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-      
+        <div class="d-lg-none d-block">
+          <span style="font-size:30px;cursor:pointer  m-auto" onclick="openNav()">&#9776;</span>
         </div>
-
-      </a>
-
-      <a href="parentsignup.html">Contact Us</a>
+      </div>
 
     </div>
+  </div>
+</div>
+
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="index.html">Home</a>
+<a href="about.html">About Us</a>
+
+<a href="#">
+
+<div class="accordion" id="accordionExample1">
+  <div class="accordion-item border-0">
+    <h2 class="accordion-header border-0 d-flex" id="headingOne">
+    <span onclick="location.href='featuredcourses.html'"> Courses</span>
+      <button class="accordion-button border-0 collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+       
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample1">
+      <div class="accordion-body">
+        <ul class="list-unstyled" >
+          <li onclick="location.href='courseslist.html'" >  Maths </li>
+          <li onclick="location.href='courseslist.html'" >  Science </li>
+          <li onclick="location.href='courseslist.html'" >  Coding </li>
+          <li onclick="location.href='courseslist.html'" >  English </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</a>
+
+
+
+<a href="skills.html">Skills</a>
+<a href="faq.html">FAQ</a>
+
+<a href="career.html">Career</a>
+<a href="parentsignup.html">Contact Us</a>
+
+</div>
 <!------end navbar------->
 
  
@@ -246,7 +220,7 @@
                             </ul>
                         </div>
             
-                        <div class="col-md-4 col-12 d-flex align-items-center justify-content-center">
+                        <div class="col-md-4 col-12 imgcol d-flex align-items-center justify-content-center">
                             <img src="asset/img1.svg" alt="img" height="100%" width="100%">
                           
                         </div>
@@ -271,8 +245,8 @@
                           </ul>
                       </div>
           
-                      <div class="col-md-4 col-12 d-flex align-items-center justify-content-center  my-auto7">
-                          <img src="asset/img2.svg" alt="img" height="100%" width="100%">
+                      <div class="col-md-4 col-12 imgCol d-flex align-items-center justify-content-center  my-auto7">
+                          <img src="asset/img2.svg" alt="img" >
                       </div>
                   </div>
                    </div>
@@ -389,7 +363,7 @@
                                             <div class="rate-box font-10">
                                                 <i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i>
                                             </div>
-                                            <button class="btn-tp-bb font-16-600"><span onclick="location.href='courseslist.html'">Know Details</span> <i class="fas fa-arrow-right"></i> </button>
+                                            <button class="btn-tp-bb font-16-600"><span onclick="location.href='coursedetail.html'">Know Details</span> <i class="fas fa-arrow-right"></i> </button>
                                         </div>
                                     </div>
                                 </div>
@@ -412,7 +386,7 @@
                                           <div class="rate-box font-10">
                                               <i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i>
                                           </div>
-                                          <button class="btn-tp-bb font-16-600"><span onclick="location.href='courseslist.html'">Know Details</span> <i class="fas fa-arrow-right"></i> </button>
+                                          <button class="btn-tp-bb font-16-600"><span onclick="location.href='coursedetail.html'">Know Details</span> <i class="fas fa-arrow-right"></i> </button>
                                       </div>
                                   </div>
                               </div>
@@ -435,7 +409,7 @@
                                         <div class="rate-box font-10">
                                             <i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i>
                                         </div>
-                                        <button class="btn-tp-bb font-16-600"><span onclick="location.href='courseslist.html'">Know Details</span> <i class="fas fa-arrow-right"></i> </button>
+                                        <button class="btn-tp-bb font-16-600"><span onclick="location.href='coursedetail.html'">Know Details</span> <i class="fas fa-arrow-right"></i> </button>
                                     </div>
                                 </div>
                             </div>
@@ -458,7 +432,7 @@
                                       <div class="rate-box font-10">
                                           <i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i><i class="tx-orange fa-solid fa-star"></i>
                                       </div>
-                                      <button class="btn-tp-bb font-16-600"><span onclick="location.href='courseslist.html'">Know Details</span> <i class="fas fa-arrow-right"></i> </button>
+                                      <button class="btn-tp-bb font-16-600"><span onclick="location.href='coursedetail.html'">Know Details</span> <i class="fas fa-arrow-right"></i> </button>
                                   </div>
                               </div>
                           </div>
