@@ -2,11 +2,11 @@
 .banner-container {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.34)), to(rgba(0, 0, 0, 0.34))), url("../images/slide1.png");
   background-image: linear-gradient(rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.34)), url("../images/slide1.png");
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .banner-container .container {
-  height: 700px;
+  height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33,7 +33,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 420px;
+  width: 800px;
   text-align: center;
 }
 
@@ -356,7 +356,7 @@
 }
 
 .faq-container .row .col-L {
-  height: 637px;
+  height: 430px;
   padding: 100px;
   background: -webkit-gradient(linear, left top, left bottom, from(#FF7731), to(#FFC271));
   background: linear-gradient(180deg, #FF7731 0%, #FFC271 100%);
@@ -377,7 +377,7 @@
 }
 
 .faq-container .row .col-R {
-  height: 637px;
+  height: 430px;
   padding: 100px;
   position: relative;
   background-image: url("../asset/star.png");
@@ -418,9 +418,11 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
+  margin: 5px 0px;
 }
 
 .faq-container .row .col-R .cards-wrapper-box .card-body .paraBox .paraBox {
+  margin: 5px 0px;
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
@@ -429,7 +431,7 @@
 
 @media (max-width: 1220px) {
   .faq-container .row .col-L {
-    height: 637px;
+    height: 430px;
     padding: 50px;
     background: -webkit-gradient(linear, left top, left bottom, from(#FF7731), to(#FFC271));
     background: linear-gradient(180deg, #FF7731 0%, #FFC271 100%);
@@ -766,8 +768,13 @@
 }
 
 .navbar-main .col-12 ul li {
-  margin: auto 12px;
+  margin: auto 20px;
   position: relative;
+}
+
+.navbar-main .col-12 ul li a {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .navbar-main .col-12 ul li i {

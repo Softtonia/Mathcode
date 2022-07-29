@@ -1,10 +1,11 @@
 .breadcrumb-container {
   background-image: url("../images/ab-bg-1.png");
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center center;
 }
 
 .breadcrumb-container .row {
-  height: 700px;
+  height: 450px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,7 +37,7 @@
 }
 
 .breadcrumb-container .row .col-12 ul li a {
-  color: white;
+  color: #FF7731;
 }
 
 .breadcrumb-container .row .col-12 ul li i {
@@ -46,7 +47,6 @@
 @media (max-width: 768px) {
   .breadcrumb-container {
     background-image: url("../images/ab-bg-1.png");
-    background-size: 100% 100%;
   }
   .breadcrumb-container .row {
     height: 300px;
@@ -88,7 +88,6 @@
 @media (max-width: 400px) {
   .breadcrumb-container {
     background-image: url("../images/ab-bg-1.png");
-    background-size: 100% 100%;
   }
   .breadcrumb-container .row {
     height: 180px;

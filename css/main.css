@@ -33,18 +33,17 @@
 
 /* button */
 .btn-all {
+  color: #FFFFFF;
+  padding: 15px 20px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  height: 50px;
   background: #FF7731;
   -webkit-box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
           box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
   border-radius: 59px;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 22px;
-  color: #FFFFFF;
-  border: none;
-  min-width: 100px;
-  height: 50px;
-  width: 213px;
 }
 
 .btn-tp-bb {
@@ -300,7 +299,19 @@
 }
 
 /* font size */
+.font-30-700 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 29px;
+}
+
 .font-24-700 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.font-22-700 {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
@@ -338,9 +349,9 @@
 }
 
 .font-para {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 25px;
 }
 
 .font-16 {
@@ -369,8 +380,8 @@
 
 .font-14 {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 16px;
+  line-height: 25px;
 }
 
 .font-14-400 {
@@ -401,6 +412,11 @@
 
 @media (max-width: 400px) {
   .font-24-700 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+  }
+  .font-22-700 {
     font-weight: 700;
     font-size: 18px;
     line-height: 29px;

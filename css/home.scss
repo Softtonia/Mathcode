@@ -1,8 +1,8 @@
 .banner-container{
     background-image: linear-gradient(rgba(0, 0, 0, 0.34),rgba(0, 0, 0, 0.34)),url('../images/slide1.png');
-    background-size: 100% 100%;
+    background-size: cover;
     .container{
-        height: 700px;
+        height: 600px;
         display: flex;
         align-items: flex-end;
         justify-content: center;
@@ -16,7 +16,7 @@
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
-                width: 420px;
+                width: 800px;
                 text-align: center;
                }
             }
@@ -360,7 +360,7 @@
 .faq-container{
     .row{
         .col-L{
-            height: 637px;
+            height: 430px;
             padding: 100px;
             background: linear-gradient(180deg, #FF7731 0%, #FFC271 100%);
 
@@ -377,7 +377,7 @@
         }
 
         .col-R{
-            height: 637px;
+            height: 430px;
             padding: 100px;
             position: relative;
             background-image: url('../asset/star.png');
@@ -411,9 +411,11 @@
                                     font-weight: 600;
                                     font-size: 16px;
                                     line-height: 19px;
+                                    margin: 5px 0px;
                                 }
 
                                 .paraBox{
+                                    margin: 5px 0px;
                                     font-weight: 400;
                                     font-size: 13px;
                                     line-height: 16px;
@@ -431,7 +433,7 @@
     .faq-container{
         .row{
             .col-L{
-                height: 637px;
+                height: 430px;
                 padding: 50px;
                 background: linear-gradient(180deg, #FF7731 0%, #FFC271 100%);
     
@@ -810,8 +812,12 @@
         
 
         li{
-            margin: auto 12px;
+            margin: auto 20px;
             position: relative;
+           a{
+            font-size: 16px;
+            font-weight: 600;
+           }
             // i{
             //     background: #FFFEFE;
             //     border: 1px solid rgba(0, 0, 0, 0.3);

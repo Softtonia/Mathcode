@@ -31,6 +31,8 @@
 
 .feature-course-container .row .feature-course-col .row .col-12 .card-body .imgBox {
   position: relative;
+  height: auto;
+  max-width: 300px;
 }
 
 .feature-course-container .row .feature-course-col .row .col-12 .card-body .imgBox img {
@@ -653,6 +655,12 @@
 
 .calss-courses-container .row .card-body .imgBox {
   position: relative;
+  height: 238px;
+}
+
+.calss-courses-container .row .card-body .imgBox img {
+  height: 100%;
+  width: 100%;
 }
 
 .calss-courses-container .row .card-body .chapter-tag {

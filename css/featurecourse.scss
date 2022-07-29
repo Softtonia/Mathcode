@@ -37,6 +37,8 @@
 
                         .imgBox{
                             position: relative;
+                            height: auto;
+                            max-width: 300px;
                            
                             img{
                                 height: 100%;
@@ -790,6 +792,11 @@ line-height: 8px;
             height: 380px;
             .imgBox{
                 position: relative;
+                height: 238px;
+                img{
+                    height: 100%;
+                    width: 100%;
+                }
             }
             .chapter-tag{
                 width: 106px;
