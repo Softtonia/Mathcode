@@ -55,6 +55,10 @@
           align-items: center;
 }
 
+.btn-all a {
+  color: #FFFFFF;
+}
+
 .btn-tp-bb {
   color: #FF7731;
   border: none;
@@ -106,7 +110,7 @@
     -webkit-box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
             box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
     font-weight: 800;
-    font-size: 6px;
+    font-size: 9px;
     line-height: 7px;
     color: #FFFFFF;
     border: none;
@@ -305,10 +309,6 @@
 }
 
 /* font family */
-.font-2 {
-  font-family: 'Chewy', cursive;
-}
-
 /* font size */
 .font-30-700 {
   font-weight: 700;
@@ -422,6 +422,11 @@
 }
 
 @media (max-width: 400px) {
+  .font-30-700 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 29px;
+  }
   .font-24-700 {
     font-weight: 700;
     font-size: 18px;
@@ -633,6 +638,43 @@ a {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   padding-top: 60px;
+}
+
+.sidenav .search-box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative !important;
+  padding: 8px 32px 8px 32px;
+}
+
+.sidenav .search-box input, .sidenav .search-box button {
+  background: #FFFFFF;
+  border: none;
+  border-radius: 0;
+  height: 41px;
+  z-index: 1;
+}
+
+.sidenav .search-box input {
+  border-right: 0px;
+  -webkit-box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+          box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  color: #00000091;
+}
+
+.sidenav .search-box i {
+  position: absolute;
+  z-index: 2;
+  right: 45px;
+  top: 35%;
+  cursor: pointer;
+  color: #000000;
+  opacity: 0.5;
 }
 
 .sidenav .accordion .accordion-item .accordion-header .accordion-button {

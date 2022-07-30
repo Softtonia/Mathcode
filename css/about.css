@@ -152,6 +152,15 @@
   padding-bottom: 40px;
 }
 
+.skill-container .container .row .skillsContent-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-container .container .row .skillsContent-box ul li {
+  margin: 15px 0px;
+}
+
 .skill-container .container .row .imgBox img {
   height: 350px;
 }
@@ -195,6 +204,20 @@
   height: 685px;
 }
 
+.our-story-faq-container .row .storyContent-box .ourMission {
+  width: 25%;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.our-story-faq-container .row .storyContent-box .missionPara {
+  width: 50%;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+}
+
 .our-story-faq-container .row .videoBox {
   position: relative;
 }
@@ -230,6 +253,18 @@
 @media (max-width: 768px) {
   .faq-container .container .row .imgBox img {
     height: 400px;
+  }
+  .our-story-faq-container .row .storyContent-box .ourMission {
+    width: 100%;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .our-story-faq-container .row .storyContent-box .missionPara {
+    width: 100%;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
   }
   .our-story-faq-container .row .videoBox {
     position: relative;
