@@ -130,8 +130,8 @@
 }
 
 .points-container {
-  background-image: url("../asset/Group 1973 (1).png");
-  background-size: 100% 110%;
+  background-color: #FBBA51;
+  margin-bottom: 0px !important;
 }
 
 .points-container .container .row {
@@ -141,7 +141,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 543px;
+  height: 458px;
 }
 
 .points-container .container .row img {
@@ -165,8 +165,6 @@
 
 @media (max-width: 768px) {
   .points-container {
-    background-image: url("../asset/Group 2097.png");
-    background-size: 100% 110%;
     padding: 20px !important;
   }
   .points-container .container .row {
@@ -208,12 +206,13 @@
 }
 
 .about-us-container {
-  background-image: url("../asset/Group 2105.png") !important;
+  background-image: url("../images/hm-bg-1.png") !important;
   background-size: 100% 100%;
+  margin-top: 0px !important;
 }
 
 .about-us-container .inner-container {
-  height: 390px;
+  height: 370px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -227,7 +226,7 @@
 }
 
 .about-us-container .container .row {
-  height: 543px;
+  height: 370px;
 }
 
 .about-us-container .container .row .imgCol {
@@ -247,15 +246,83 @@
   height: 276px;
 }
 
-@media (max-width: 400px) {
+.about-us-container .container .row .col-md-8.col-12 {
+  color: white;
+}
+
+.about-us-container .container .row .col-md-8.col-12 ul {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
   .about-us-container {
-    background-image: url("../asset/") !important;
-    background-size: cover;
+    background-image: url("../images/hm-bg-1.png") !important;
+    background-size: 100% 100%;
+    margin-top: 0px !important;
   }
   .about-us-container .inner-container {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 1050px;
+  }
+  .about-us-container .container .row {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .about-us-container .container .row .imgCol {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about-us-container .container .row .imgCol img {
+    width: 326.73px;
+    height: 276px;
+  }
+  .about-us-container .container .row .col-md-8.col-12 {
+    color: white;
+  }
+  .about-us-container .container .row .col-md-8.col-12 ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-us-container {
+    background-size: cover;
+  }
+  .about-us-container .inner-container {
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -579,7 +646,7 @@
 
 @media (max-width: 400px) {
   .faq-container .row .col-L {
-    height: 225px;
+    height: 300px;
     padding: 20px;
     background: -webkit-gradient(linear, left top, left bottom, from(#FF7731), to(#FFC271));
     background: linear-gradient(180deg, #FF7731 0%, #FFC271 100%);
@@ -607,6 +674,19 @@
   }
   .faq-container .row .col-L .card-body .paraBox ul {
     text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .faq-container .row .col-L .card-body .paraBox ul .para-tag {
     font-size: 10px !important;
@@ -819,6 +899,7 @@
 .navbar-main .col-12 ul li .dd-hov-content .hov-content .imgBox button a {
   text-decoration: none;
   color: white;
+  font-size: 10px;
 }
 
 .navbar-main .col-12 ul li .contact-btn {
@@ -828,6 +909,10 @@
   -webkit-box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
           box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.25);
   border-radius: 59px;
+}
+
+.navbar-main .col-12 ul li .contact-btn a {
+  font-size: 14px;
 }
 
 @media (max-width: 1220px) {
